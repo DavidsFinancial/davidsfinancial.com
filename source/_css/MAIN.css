@@ -1,0 +1,345 @@
+
+/*******************************
+   FONT TYPE STYLES
+*******************************/
+@charset "utf-8";
+
+/*- Raleway -*/
+@font-face {
+    font-family: 'raleway-light';
+    src: url('../_fonts/raleway-light-webfont.eot'); src: url('../_fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+url('../_fonts/raleway-light-webfont.woff') format('woff'), url('../_fonts/raleway-light-webfont.ttf') format('truetype'), url('../_fonts/raleway-light-webfont.svg#raleway-light-webfont') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway-regular';
+    src: url('../_fonts/raleway-regular-webfont.eot'); src: url('../_fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('../_fonts/raleway-regular-webfont.woff') format('woff'), url('../_fonts/raleway-regular-webfont.ttf') format('truetype'), url('../_fonts/raleway-regular-webfont.svg#raleway-regular-webfont') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway-medium';
+    src: url('../_fonts/raleway-medium-webfont.eot'); src: url('../_fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+url('../_fonts/raleway-medium-webfont.woff') format('woff'), url('../_fonts/raleway-medium-webfont.ttf') format('truetype'), url('../_fonts/raleway-medium-webfont.svg#raleway-medium-webfont') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway-semibold';
+    src: url('../_fonts/raleway-semibold-webfont.eot'); src: url('../_fonts/raleway-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+url('../_fonts/raleway-semibold-webfont.woff') format('woff'), url('../_fonts/raleway-semibold-webfont.ttf') format('truetype'), url('../_fonts/raleway-semibold-webfont.svg#montserrat-semibold-webfont') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway-bold';
+    src: url('../_fonts/raleway-bold-webfont.eot'); src: url('../_fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+url('../_fonts/raleway-bold-webfont.woff') format('woff'), url('../_fonts/raleway-bold-webfont.ttf') format('truetype'), url('../_fonts/raleway-bold-webfont.svg#raleway-bold-webfont') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway-black';
+    src: url('../_fonts/raleway-black-webfont.eot'); src: url('../_fonts/raleway-black-webfont.eot?#iefix') format('embedded-opentype'),
+url('../_fonts/raleway-black-webfont.woff') format('woff'), url('../_fonts/raleway-black-webfont.ttf') format('truetype'), url('../_fonts/raleway-black-webfont.svg#raleway-black-webfont') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+
+
+.font-raleway-light { font-family: "raleway-light", Arial, Helvetica, sans-serif; }
+.font-raleway-regular { font-family: "raleway-regular", Arial, Helvetica, sans-serif; }
+.font-raleway-medium { font-family: "raleway-medium", Arial, Helvetica, sans-serif; }
+.font-raleway-semibold { font-family: "raleway-semibold", Arial, Helvetica, sans-serif; }
+.font-raleway-bold { font-family: "raleway-bold", Arial, Helvetica, sans-serif; }
+.font-raleway-black { font-family: "raleway-black", Arial, Helvetica, sans-serif; }
+
+/* - Open Sans - */
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../_fonts/OpenSans-Light-webfont.eot'); src: url('../_fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+url('../_fonts/OpenSans-Light-webfont.woff') format('woff'), url('../_fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('../_fonts/OpenSans-Light-webfont.svg#OpenSans-Light-webfont') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../_fonts/OpenSans-Regular-webfont.eot'); src: url('../_fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('../_fonts/OpenSans-Regular-webfont.woff') format('woff'), url('../_fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('../_fonts/OpenSans-Regular-webfont.svg#OpenSans-Regular-webfont') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('../_fonts/OpenSans-Semibold-webfont.eot'); src: url('../_fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+url('../_fonts/OpenSans-Semibold-webfont.woff') format('woff'), url('../_fonts/OpenSans-Semibold-webfont.ttf') format('truetype'), url('../_fonts/OpenSans-Semibold-webfont.svg#montserrat-semibold-webfont') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../_fonts/OpenSans-Bold-webfont.eot'); src: url('../_fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+url('../_fonts/OpenSans-Bold-webfont.woff') format('woff'), url('../_fonts/OpenSans-Bold-webfont.ttf') format('truetype'), url('../_fonts/OpenSans-Bold-webfont.svg#OpenSans-Bold-webfont') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+
+/* Davids Financial Menu & Icons */
+@font-face {
+    font-family: 'menu';
+    src: url('../_fonts/df-menu.eot'); src: url('../_fonts/df-menu.eot?#iefix') format('embedded-opentype'),
+url('../_fonts/df-menu.woff') format('woff'), url('../_fonts/df-menu.ttf') format('truetype'), url('../_fonts/df-menu.svg#df-menu') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+
+/*******************************
+       BOILERPLATE STYLES
+*******************************/
+/*HTML5*/
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+
+body {
+    background-attachment: fixed;
+    background-color: #FFF;
+    text-align: center;
+    line-height: 1;
+    font-size: 100%;
+    min-height:100%;
+    vertical-align: baseline;
+}
+
+html, body {  width:100%; height:100%;  padding:0; margin:0; }
+
+a:visited { color: inherit; }
+a:hover, a:active { outline: 0; }
+.hidden { display: none !important; visibility: hidden; }
+.centerText { text-align: center !important; }
+
+
+/*******************************
+       CONTAINERS
+*******************************/
+#divCONTAINER {
+    width: 100%; height: 100%; margin: 0 auto;
+    text-align: center;
+    position: relative; z-index: 1000;
+    clear: both; float: left;
+    box-sizing: border-box;
+}
+
+.innerContainer {  width: 1200px; margin: 0 auto;  }
+
+.clearfix:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/**************************
+    FOOTER
+**************************/
+#divHEADER { display: table; float: left; clear: both; width: 100%; height: 150px; margin: 0 auto; background-color: #00847c;}
+#divHEADER .top {
+    display: table;
+    width: 100%; height: 120px;
+    padding: 30px 0 0; box-sizing: border-box;
+}
+
+#divHEADER .top .branding {
+    float: left; clear: none;
+    width: 459px; height: 55px;
+    background-image: url('../_images/davidsLogo.png');
+    background-position: center;
+    cursor: pointer;
+}
+
+#divHEADER .top .topMenu {  display: table;  float: right; clear: none;  width: auto; text-align: right;}
+#divHEADER .top .topMenu .item {
+    display: inline-block;
+    float: right;
+    margin: 3px 10px 0; padding: 10px 12px; box-sizing: border-box;
+    cursor: pointer;
+    font-family: "menu", Arial, Helvetica, sans-serif;
+    color: #FFF;
+    text-align: center;
+}
+
+#divHEADER .top .topMenu .item[data-icon="location"]::after {  content: 'b';  font-size: 160%;  }
+#divHEADER .top .topMenu .item[data-icon="contact"]::after {  content: 'd';  font-size: 170%;  }
+#divHEADER .top .topMenu .item[data-icon="employment"]::after {  content: 'c';  font-size: 170%;  }
+#divHEADER .top .topMenu .item[data-icon="about"]::after {  content: 'a';  font-size: 170%;  }
+
+#divHEADER .top .topMenu .item:hover {
+    color: #FFFF00;
+    background-color: #000;
+}
+
+#divHEADER .top .topMenu .searchItem {
+    display: inline-block;
+    float: right;
+    margin: 13px 20px 0;
+    cursor: pointer;
+    color: #FFF;
+}
+
+
+#divHEADER .top .topMenu .search {
+    display: inline-block;
+    float: right;
+    background-image: url('../_images/topMenu_search.png');
+    background-repeat: no-repeat;
+    background-position: 166px 5px;
+    background-color: transparent;
+    width: 200px; height: 30px;
+    padding: 14px 35px 14px 15px; box-sizing: border-box; margin: 0;
+    border: 3px solid #FFF;
+    border-radius: 15px;
+    color: #FFF;
+    font-family: "Open_regular", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: right;
+}
+
+#divHEADER .navigation {  display: table;  width: 100%; height: 70px;  background-color: #000; text-align: left }
+
+#divHEADER .navigation .item {
+    display: inline-block;
+    font-family: "raleway-semibold", Arial, Helvetica, sans-serif;
+    font-size: 80%; letter-spacing: .4px;
+    color: #FFF;
+    padding: 30px 0 10px; margin: 0 35px 0 0; box-sizing: border-box;
+    cursor: pointer;
+}
+
+#divHEADER .navigation .item[data-state=""]:hover {
+    color: #ffff00;
+    border-bottom: 3px solid #ffff00;
+}
+
+#divHEADER .navigation .item[data-state="on"] {
+    font-family: "raleway-semibold", Arial, Helvetica, sans-serif;
+    color: #ffff00;
+    border-bottom: 3px solid #ffff00;
+}
+
+#divHEADER .navigation .wuLogo {
+    float: right; height: 70px;
+    cursor: pointer;
+}
+
+/******************************
+        BODY STYLE
+*******************************/
+#divBODY {
+    display: table;
+    float: left; clear: both;
+    width: 100%;
+}
+
+#divBODY .title {
+    width: 100%;
+    float: left;
+    font-family: "raleway-regular", Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    font-weight: 500;
+    letter-spacing: .4px;
+    text-align: left;
+}
+
+/******************************
+        FOOTER STYLES
+*******************************/
+#divFOOTER {
+    display: table;
+    float: left; clear: both;
+    background-color: #000;
+    color: #FFF;
+    position: relative;
+    width: 100%; height: auto;
+    padding: 0 0 30px;  box-sizing: border-box;
+    bottom: 0;
+}
+
+#divFOOTER .partners {
+    padding: 40px 0; box-sizing: border-box;
+    background-color: #e5f2f2;
+}
+
+#divFOOTER .partners .item { display: inline-block; width: auto; margin: 0 10px; }
+#divFOOTER .partners .item img { width: 100%;}
+
+#divFOOTER .mainMenu {
+    font-family: "raleway-medium", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #FFF;  padding: 30px 0;
+}
+
+#divFOOTER .mainMenu span {  display: inline-block;  margin: 0 15px;  }
+
+#divFOOTER .subMenu {
+    font-family: "raleway-medium", Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    color: #FFF;  padding: 0 0 30px;
+    opacity: .8;
+}
+
+#divFOOTER .subMenu span {  display: inline-block;  margin: 0 15px;  }
+
+#divFOOTER .disclaimer {
+    font-family: "raleway-regular", Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    padding: 0 0 20px;
+    line-height: 160%;
+}
+
+#divFOOTER .disclaimer span {
+    font-family: "raleway-semibold", Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+#divFOOTER .company {
+    font-family: "raleway-semibold", Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    padding: 0 0 20px;
+}
+
+/**************************
+   BTN STYLES
+**************************/
+.btn_obj {
+    font-size: 120%;
+    border-radius: 8px;
+    margin: auto; padding: 18px 30px 18px;
+    box-sizing: border-box;
+    width: auto;
+    display: table;
+}
+
+.btn_obj_inner {
+    font-size: 90%;
+    border-radius: 8px;
+    margin: auto; padding: 12px 18px;
+    box-sizing: border-box;
+    width: auto;
+    display: table;
+}
+
+.btn_obj_active {  cursor: pointer; opacity: 1; }
+.btn_obj_inactive {  cursor: default; opacity: .3;  }
+
+.btn_obj_color1 { background-color: #60b160; color: #FFF; }
+.btn_obj_active.btn_obj_color1:hover { background-color: #3b8d3b; color: #FFF; }
+
+.btn_obj_color2 { background-color: #608eb1; color: #FFF; }
+.btn_obj_active.btn_obj_color2:hover { background-color: #1377b8; color: #FFF;}
+
+.btn_obj_color3 { background-color: #b16060; color: #FFF; }
+.btn_obj_active.btn_obj_color3:hover { background-color: #b81313; color: #FFF; }
+
+.btn_obj_color4 { background-color: #888; color: #FFF;}
+.btn_obj_active.btn_obj_color4:hover { background-color: #464646; color: #FFF; }
