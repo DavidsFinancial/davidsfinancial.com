@@ -47,14 +47,6 @@ if($thisURI_current != ""){
     $menuState[$thisURI_current] = "on";
 }
 
-echo $directories;
-echo "<p>";
-echo $thisURI_current;
-echo "<p>";
-echo $url_prefix;
-echo "<p>";
-echo $thisURI;
-
 ?>
 <script language="javascript">
     function navigateTo(url){
