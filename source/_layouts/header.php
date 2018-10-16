@@ -3,18 +3,29 @@
 //Check Env Variable
 $URI_SEARCH = 'source';
 if(getenv('PHP_ENV')){
-    if(getenv('PHP_ENV') == 'production'){
-        $URI_SEARCH = 'http://davidsfinancialcom-env.x553gp3m6y.eu-west-1.elasticbeanstalk.com';
+    //Production
+    $thisURI = $_SERVER["REQUEST_URI"];
+
+    $directories = substr_count($thisURI, '/');
+    $url_prefix = "./";
+
+    if($directories == 2){
+        $url_prefix = "./../";
     }
-}
 
-$thisURI = $_SERVER["REQUEST_URI"];
-$thisURI_part = explode($URI_SEARCH, $thisURI);
-$directories = substr_count($thisURI_part[1], '/');
-$url_prefix = "./";
+    $thisURI_current = str_replace("/", "", $thisURI);
+}else{
+    //Local
+    $thisURI = $_SERVER["REQUEST_URI"];
+    $thisURI_part = explode($URI_SEARCH, $thisURI);
+    $directories = substr_count($thisURI_part[1], '/');
+    $url_prefix = "./";
 
-if($directories == 2){
-    $url_prefix = "./../";
+    if($directories == 2){
+        $url_prefix = "./../";
+    }
+
+    $thisURI_current = str_replace("/", "", $thisURI_part[1]);
 }
 
 //Navigation Structure
@@ -31,8 +42,6 @@ $menuState['products'] = "";
 $menuState['services'] = "";
 $menuState['moneyTransfers'] = "";
 $menuState['wu'] = "";
-
-$thisURI_current = str_replace("/", "", $thisURI_part[1]);
 
 if($thisURI_current != ""){
     $menuState[$thisURI_current] = "on";
