@@ -72,9 +72,9 @@
 
             </div>
             <div class="col2">
-                <?php require('../_Layouts/calculator.php') ?>
-                <?php require('../_Layouts/ebtSchedule.php') ?>
-                <?php require('../_Layouts/storeFinder.php') ?>
+                <?php require('../_layouts/calculator.php') ?>
+                <?php require('../_layouts/ebtSchedule.php') ?>
+                <?php require('../_layouts/storeFinder.php') ?>
             </div>
         </div>
     </div>
