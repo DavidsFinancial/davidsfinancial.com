@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Bill Payment | Davids Financial</title>
+    <title>Legal | Davids Financial</title>
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="../_css/MAIN.css">
@@ -16,7 +16,7 @@
     <?php require('../_layouts/header.php') ?>
     <div id="divBODY">
         <div class="innerContainer">
-            <div class="title">Bill Payment</div>
+            <div class="title">Legal</div>
         </div>
     </div>
     <?php require('../_layouts/footer.php') ?>

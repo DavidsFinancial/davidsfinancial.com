@@ -174,10 +174,9 @@ a:hover, a:active { outline: 0; }
 #divHEADER .top .topMenu .item[data-icon="employment"]::after {  content: 'c';  font-size: 170%;  }
 #divHEADER .top .topMenu .item[data-icon="about"]::after {  content: 'a';  font-size: 170%;  }
 
-#divHEADER .top .topMenu .item:hover {
-    color: #FFFF00;
-    background-color: #000;
-}
+#divHEADER .top .topMenu .item[data-state="on"] { color: #FFFF00; background-color: #000; border-bottom: 3px solid #FFFF00; }
+
+#divHEADER .top .topMenu .item:hover { color: #FFFF00; background-color: #000;  border-bottom: 3px solid #FFFF00;  }
 
 #divHEADER .top .topMenu .searchItem {
     display: inline-block;
@@ -245,10 +244,94 @@ a:hover, a:active { outline: 0; }
     width: 100%;
     float: left;
     font-family: "raleway-regular", Arial, Helvetica, sans-serif;
-    font-size: 150%;
+    font-size: 180%;
     font-weight: 500;
     letter-spacing: .4px;
     text-align: left;
+    margin: 50px 0;
+}
+
+#divBODY .col1 {
+    display: table;
+    float: left; clear: none; width: 70%; margin-right: 5%;
+    text-align: left;
+    padding: 0 0 60px 40px; box-sizing: border-box;
+}
+
+#divBODY .col1 .sectionTitle {
+    float: left; clear: both;
+    width: 100%;
+    font-family: "raleway-semibold", Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    color: #006861;
+    margin: 60px 0 30px; padding: 0; box-sizing: border-box;
+}
+
+#divBODY .col1 .iconBullet {
+    float: left; clear: none;
+    margin: -8px 0 0 -40px;
+}
+
+#divBODY .col1 .iconBullet::before {
+    font-family: "menu", Arial, Helvetica, sans-serif;
+    font-size: 170%;
+    content: 'H'
+}
+
+#divBODY .col1 .sectionTitle:first-child {
+    margin: 0 0 30px !important;
+}
+
+#divBODY .col1 .contentTitle {
+    float: left; clear: both;
+    width: 100%;
+    font-family: "raleway-semibold", Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    color: #000;
+    margin: 30px 0 20px;
+}
+
+#divBODY .col1 .content {
+    float: left; clear: both;
+    width: 100%;
+    font-family: "raleway-medium", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 150%;
+}
+
+#divBODY .col1 .table {
+    float: left; clear: both;
+    width: 100%;
+    background-color: #ecf4f9;
+    margin: 20px 0; padding: 20px 40px; box-sizing: border-box;
+}
+
+#divBODY .col1 .table .col_half {
+    display: table;
+    float: left; clear: none;
+    width: 50%;
+}
+
+#divBODY .col1 .table .col_third {
+    display: table;
+    float: left; clear: none;
+    width: 33%;
+}
+
+#divBODY .col1 .table .item {
+    display: list-item;
+    float: left; clear: none; width: 100%;
+    font-family: "raleway-bold", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 150%;
+    padding: 5px; box-sizing: border-box;
+}
+
+#divBODY .col2 {
+    display: table;
+    float: left; clear: none; width: 25%;
+    text-align: center;
+    padding: 0 0 60px 0;
 }
 
 /******************************
@@ -279,7 +362,8 @@ a:hover, a:active { outline: 0; }
     color: #FFF;  padding: 30px 0;
 }
 
-#divFOOTER .mainMenu span {  display: inline-block;  margin: 0 15px;  }
+#divFOOTER .mainMenu span { display: inline-block;  margin: 0 15px; cursor: pointer; }
+#divFOOTER .mainMenu span:hover { text-decoration: underline; }
 
 #divFOOTER .subMenu {
     font-family: "raleway-medium", Arial, Helvetica, sans-serif;
@@ -288,7 +372,8 @@ a:hover, a:active { outline: 0; }
     opacity: .8;
 }
 
-#divFOOTER .subMenu span {  display: inline-block;  margin: 0 15px;  }
+#divFOOTER .subMenu span { display: inline-block;  margin: 0 15px; cursor: pointer; }
+#divFOOTER .subMenu span:hover { text-decoration: underline; }
 
 #divFOOTER .disclaimer {
     font-family: "raleway-regular", Arial, Helvetica, sans-serif;
