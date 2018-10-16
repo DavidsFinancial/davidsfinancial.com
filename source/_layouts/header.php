@@ -9,7 +9,7 @@ if(getenv('PHP_ENV')){
 }
 
 $thisURI = $_SERVER["REQUEST_URI"];
-$thisURI_part = explode('source', $thisURI);
+$thisURI_part = explode($URI_SEARCH, $thisURI);
 $directories = substr_count($thisURI_part[1], '/');
 $url_prefix = "./";
 
