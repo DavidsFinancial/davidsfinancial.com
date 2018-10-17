@@ -61,10 +61,10 @@
     <div class="title"><div class="icon"></div>STORE FINDER</div>
     <div class="subTitle">WHAT'S NEAR YOU?</div>
     <div class="list">
-        <div class="item">Manhattan</div>
-        <div class="item">Queens</div>
-        <div class="item">Brooklyn</div>
-        <div class="item">Bronx</div>
-        <div class="item">Rockland</div>
+        <div class="item" onClick="location.href='<?php echo $url_prefix; ?>locations/#mahattan'">Manhattan</div>
+        <div class="item" onClick="location.href='<?php echo $url_prefix; ?>locations/#queens'">Queens</div>
+        <div class="item" onClick="location.href='<?php echo $url_prefix; ?>locations/#brooklyn'">Brooklyn</div>
+        <div class="item" onClick="location.href='<?php echo $url_prefix; ?>locations/#bronx'">Bronx</div>
+        <div class="item" onClick="location.href='<?php echo $url_prefix; ?>locations/#rockland'">Rockland</div>
     </div>
 </div>

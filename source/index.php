@@ -5,8 +5,8 @@
     <title>Davids Financial</title>
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <?php require('_layouts/javascripts.php') ?>
     <link rel="stylesheet" href="_css/MAIN.css">
-
     <style>
         #hero {
             height: 500px;

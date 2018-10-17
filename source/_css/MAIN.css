@@ -299,11 +299,26 @@ a:hover, a:active { outline: 0; }
     line-height: 150%;
 }
 
+#divBODY .col1 .content div {
+    float: left; clear: both;
+    line-height: 180%;
+}
+
+#divBODY .col1 .content .bold {
+    font-family: "raleway-semibold", Arial, Helvetica, sans-serif;
+}
+
 #divBODY .col1 .table {
     float: left; clear: both;
     width: 100%;
     background-color: #ecf4f9;
     margin: 20px 0; padding: 20px 40px; box-sizing: border-box;
+}
+
+#divBODY .col1 .table .col_single {
+    display: table;
+    float: left; clear: none;
+    width: 100%;
 }
 
 #divBODY .col1 .table .col_half {
@@ -313,9 +328,15 @@ a:hover, a:active { outline: 0; }
 }
 
 #divBODY .col1 .table .col_third {
+     display: table;
+     float: left; clear: none;
+     width: 33%;
+ }
+
+#divBODY .col1 .table .col_fourth {
     display: table;
     float: left; clear: none;
-    width: 33%;
+    width: 25%;
 }
 
 #divBODY .col1 .table .item {

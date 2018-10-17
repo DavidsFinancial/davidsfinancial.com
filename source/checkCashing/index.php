@@ -6,9 +6,29 @@
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="../_css/MAIN.css">
-
+    <?php require('../_layouts/javascripts.php') ?>
     <style>
+        .btnPDFLink {
+            display: table;
+            float: left; clear: both;
+            width: auto;
+            margin: 10px auto; padding: 10px 20px; box-sizing: border-box;
+            border: 1px solid #000;
+            cursor: pointer;
+        }
 
+        .btnPDFLink::after {
+            font-family: "menu", Arial, Helvetica, sans-serif;
+            font-size: 140%;
+            font-weight: normal !important;
+            content: 'y';
+            margin-left: 10px;
+        }
+
+        .btnPDFLink:hover {
+            background-color: #000;
+            color: #FFFF00;
+        }
     </style>
 </head>
 <body>
@@ -62,12 +82,12 @@
                 <div class="content">We cash checks made payable to any business, corporation, partnership, sole proprietor or any legitimate business entity.</div>
                 <div class="contentTitle">What you should bring:</div>
                 <div class="content">Before you can cash a commercial check, you must complete our Commercial Application.
-                    <p>If you are a Sole Proprietor click the link below for the application.
-                    <div>SOLE PROPRIETOR APPLICATION</div>
-                    <p>If you are a Corporation/Partnership please click the link below for the application.
-                    <div>CORPORATE/PARTNERSHIP APPLICATION</div>
-                    <p>The completed Application must be notarized and must bear the entity's corporate seal.
-                    <p>If you would like additional information please contact our Compliance Department at 888 268-2330 ext 116 or 115
+                    <div>If you are a Sole Proprietor click the button below for the application.</div>
+                    <div class="btnPDFLink" title="Open Sole Proprietor Application" onClick="window.open('<?php echo $url_prefix; ?>_assets/davidsFinancial-sole.pdf');">SOLE PROPRIETOR APPLICATION</div>
+                    <div>If you are a Corporation/Partnership please click the button below for the application.</div>
+                    <div class="btnPDFLink" title="Open Corporate/Partnership Application" onClick="window.open('<?php echo $url_prefix; ?>_assets/davidsFinancial-corp.pdf');">CORPORATE/PARTNERSHIP APPLICATION</div>
+                    <div>The completed Application must be notarized and must bear the entity's corporate seal.</div>
+                    <div class="bold">If you would like additional information please contact our Compliance Department at 888 268-2330 ext 116 or 115</div>
                 </div>
 
             </div>

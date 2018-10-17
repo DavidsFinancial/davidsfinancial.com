@@ -103,8 +103,38 @@
         background-color: #000;
         color: #FFFF00
     }
-
 </style>
+<script language="javascript">
+    var percent = 0.0201;
+
+    function Calculate() {
+        $('#feeTotal').html('<img src="<?php echo $url_prefix; ?>_images/loading_circleRing.svg" style="height: 15px;">');
+        var amount = parseFloat($('#calc-check-amount').val());
+        if (isNaN(amount)) {
+            amount = $('#calc-check-amount').val();
+            amount = amount.substr(1);
+        }
+
+        var fee = (amount * percent).toFixed(2);
+        if (fee < 1) {
+            if (fee == 0) {
+                fee = 0;
+            } else {
+                fee = 1;
+            }
+        }
+
+        $('#feeTotal').animate({opacity:.5}, 100, "linear").animate({
+            opacity: 1
+        }, 100, "linear", function() {
+            $('#feeTotal').html(fee);
+        })
+    }
+    $(document).ready(function() {
+        $('#calc-check-amount').val(0);
+        $('#feeTotal').html('0.00');
+    });
+</script>
 <div id="calculator">
     <div class="icon">$</div>
     <div class="title">CHECK CASHING <br>FEE CALCULATOR</div>
@@ -115,11 +145,11 @@
             <div class="field">Fee Total</div>
         </div>
         <div class="row">
-            <div class="inputs"><input type="text" placeholder="0.00"></div>
+            <div class="inputs"><input type="text" placeholder="0.00" id="calc-check-amount" value=""></div>
             <div class="inputs"><div id="feeTotal">0.00</div></div>
         </div>
     </div>
     <div class="button">
-        <div class="btnCalculate">CALCULATE</div>
+        <div class="btnCalculate" onClick="Calculate()">CALCULATE</div>
     </div>
 </div>
