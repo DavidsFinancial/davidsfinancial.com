@@ -13,8 +13,10 @@
             float: left; clear: both;
             width: auto;
             margin: 10px auto; padding: 10px 20px; box-sizing: border-box;
-            border: 1px solid #000;
+            border: 1px solid #942d2d;
             cursor: pointer;
+            background-color: #a53232;
+            color: #FFF;
         }
 
         .btnPDFLink::after {
@@ -28,6 +30,12 @@
         .btnPDFLink:hover {
             background-color: #000;
             color: #FFFF00;
+        }
+
+        .friendImage {
+            display: inline-block;
+            float: left;
+            margin: 0 30px 30px 0;
         }
     </style>
 </head>
@@ -62,6 +70,7 @@
                 <div class="content">The first time you conduct a transaction with us, you will be provided a Valued Customer ID. This ID will serve as your customer identification and it will be accepted at any of our retail locations.</div>
                 <div class="sectionTitle"><div class="iconBullet"></div>REFER-A-FRIEND PROGRAM TERMS & CONDITIONS</div>
                 <div class="content">
+                    <img class="friendImage" src="<?php echo $url_prefix; ?>_images/checkCashing_referAFriend.png" alt="Check image" title="Check Image">
                     Referred customer must be a new customer to Davids Check Cashing. Referred customer must cash a check at Davids Check Cashing.
                     <p>Once you referred a friend that meets the criteria described above, your checks will be cashed for free up to a $600 face amount. If face amount is higher than $600.00, we will give you a credit up to the equivalent of the fee for the face amount of $600.00 and you will be responsible to pay the fee for the difference above the$600.00 face amount.
                     <p><span data-type="bold">Free Check Cashing term is for a 30 day period. No purchased necessary to participate.</span>
@@ -82,11 +91,11 @@
                 <div class="content">We cash checks made payable to any business, corporation, partnership, sole proprietor or any legitimate business entity.</div>
                 <div class="contentTitle">What you should bring:</div>
                 <div class="content">Before you can cash a commercial check, you must complete our Commercial Application.
-                    <div>If you are a Sole Proprietor click the button below for the application.</div>
+                    <div style="margin-top: 20px;" class="bold">If you are a Sole Proprietor click the button below for the application.</div>
                     <div class="btnPDFLink" title="Open Sole Proprietor Application" onClick="window.open('<?php echo $url_prefix; ?>_assets/davidsFinancial-sole.pdf');">SOLE PROPRIETOR APPLICATION</div>
-                    <div>If you are a Corporation/Partnership please click the button below for the application.</div>
+                    <div style="margin-top: 20px;" class="bold">If you are a Corporation/Partnership please click the button below for the application.</div>
                     <div class="btnPDFLink" title="Open Corporate/Partnership Application" onClick="window.open('<?php echo $url_prefix; ?>_assets/davidsFinancial-corp.pdf');">CORPORATE/PARTNERSHIP APPLICATION</div>
-                    <div>The completed Application must be notarized and must bear the entity's corporate seal.</div>
+                    <div style="margin-top: 20px;">The completed Application must be notarized and must bear the entity's corporate seal.</div>
                     <div class="bold">If you would like additional information please contact our Compliance Department at 888 268-2330 ext 116 or 115</div>
                 </div>
 

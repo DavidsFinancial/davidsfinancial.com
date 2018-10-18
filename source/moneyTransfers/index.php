@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="../_css/MAIN.css">
     <?php require('../_layouts/javascripts.php') ?>
     <style>
-        .wuBanner {
-            float: left; clear: both; width: 100%; height: 180px;
-            margin: 0 0 0 -40px;
-            background-image: url('<?php echo $url_prefix; ?>_images/wu_banner.jpg');
-            background-repeat: repeat-y;
-            background-position: center;
-            background-size: cover;
-            background-color: #f2c811;
+        .wuImage {
+            display: table; width: 100px;
+            float: left; clear: none;
+            margin: -30px 10px 10px 0;
+        }
+
+        .callOut {
+            display: table;
+            float: left; clear: none;
+            font-family: "raleway-bold", Arial, Helvetica, sans-serif;
+            font-size: 190%;
+            color: #000;
+            margin: 5px 0 0 10px;
         }
     </style>
 </head>
@@ -26,11 +31,15 @@
         <div class="innerContainer">
             <div class="title">MONEY TRANSFERS</div>
             <div class="col1">
-                <div class="sectionTitle"><div class="iconBullet"></div>MONEY TRANSFER</div>
+                <div class="sectionTitle"><div class="iconBullet"></div>MONEY TRANSFER - MONEY ORDER PAYMENTS - PREPAID</div>
+                <div class="contentTitle">
+                    <img class="wuImage" src="<?php echo $url_prefix; ?>_images/westernUnion_circleLogo.png" alt="Western Union Logo" title="Western Union Logo">
+                    <div class="callOut">Business Services</div>
+                </div>
                 <div class="content">
-                    <div>Need to send some cash to someone you love?</div>
-                    <div>Want to send a special message and a gift to a graduating senior?</div>
-                    <div>Need to get some quick cash for an emergency from a friend or family member?</div>
+                    <div class="bold">Need to send some cash to someone you love?
+                        <p>Want to send a special message and a gift to a graduating senior?
+                        <p>Need to get some quick cash for an emergency from a friend or family member?</div>
                     <div>Davids Check Cashing is proud to be an Authorized Western Union Agent allowing you to send or receive money fast, to or from anywhere in the world.</div>
                 </div>
                 <div class="contentTitle">You can find the following services at any of our stores:</div>

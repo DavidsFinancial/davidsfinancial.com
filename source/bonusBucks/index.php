@@ -13,8 +13,10 @@
             float: left; clear: both;
             width: auto;
             margin: 10px auto; padding: 10px 20px; box-sizing: border-box;
-            border: 1px solid #000;
+            border: 1px solid #942d2d;
             cursor: pointer;
+            background-color: #a53232;
+            color: #FFF;
         }
 
         .btnPDFLink::after {
@@ -67,19 +69,24 @@
         .chart .body .row .left {
             display: table-cell;
             width: 48%;
-            font-family: "raleway-semibold", Arial, Helvetica, sans-serif;
-            font-size: 100%;
+            font-family: "OpenSans-Semibold", Arial, Helvetica, sans-serif;
+            font-size: 95%;
             text-align: right;
-            padding: 10px 10px 15px; box-sizing: border-box;
+            padding: 15px 10px 15px; box-sizing: border-box;
         }
 
         .chart .body .row .right {
             display: table-cell;
             width: 52%;
-            font-family: "raleway-semibold", Arial, Helvetica, sans-serif;
+            font-family: "OpenSans-Semibold", Arial, Helvetica, sans-serif;
+            font-size: 95%;
             color: #0f3f64;
             text-align: left;
-            padding: 10px 10px 15px; box-sizing: border-box;
+            padding: 15px 10px 15px; box-sizing: border-box;
+        }
+
+        .bonusBucks img {
+            float: left; clear: none;
         }
     </style>
 </head>
@@ -91,11 +98,11 @@
             <div class="title">BONUS BUCKS</div>
             <div class="col1">
                 <div class="sectionTitle"><div class="iconBullet"></div>THANK YOU...</div>
-                <div class="content">
+                <div class="content bonusBucks">
                     <div>... for being a loyal Davids customer. We really appreciate your business. That's why we developed BONUS BUCKS. We know that you work hard for your money,
                         so we designed this program to reward you for your loyalty in doing business with Davids.
                     <p>Earn points when you cash a check, pay a bill, buy a money order, get or load a prepaid debit card! In fact, you can earn points for most services offered at Davids Check Cashing. See the chart below for details. And when you've earned enough points, cash them in for instant cash rebates, paid on the spot - up to $100!</div>
-                    <div>Click the button below for Terms and Conditions</div>
+                    <div class="bold">Click the button below for Terms and Conditions</div>
                     <div class="btnPDFLink" title="Bonus Bucks Terms & Conditions" onClick="window.open('<?php echo $url_prefix; ?>_assets/bonusBucksProgram.pdf');">BONUS BUCKS TERMS (PDF)</div>
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>JOIN TODAY! GET YOUR NUMBER CARD & KEY TAG</div>
@@ -149,7 +156,7 @@
                 </div>
                 <div class="contentTitle">For example, cash a check with a fee of $5 and earn 100 points.</div>
                 <div class="content">Buy a money order of any amount and earn 15 points. The  more you do, the more you earn. When you reach certain point levels, you can redeem them for instant cash rebates, paid to you right on the spot!</div>
-                <div class="chart">
+                <div class="chart" style="margin-top: 20px;">
                     <div class="header">How Many Points Do You Need?</div>
                     <div class="body">
                         <div class="row">
@@ -192,6 +199,7 @@
                 <div class="contentTitle">At Davids, We Turn Checks Into Cash ... and your business earns you more cash!!</div>
             </div>
             <div class="col2">
+                <?php require('../_layouts/calculator.php') ?>
                 <?php require('../_layouts/ebtSchedule.php') ?>
                 <?php require('../_layouts/storeFinder.php') ?>
             </div>

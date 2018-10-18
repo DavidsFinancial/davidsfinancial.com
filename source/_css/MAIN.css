@@ -251,6 +251,17 @@ a:hover, a:active { outline: 0; }
     margin: 50px 0;
 }
 
+#divBODY .subtitle {
+    width: 100%;
+    float: left;
+    font-family: "raleway-medium", Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: left;
+    margin: -30px 0 -10px -40px;
+}
+
 #divBODY .col1 {
     display: table;
     float: left; clear: none; width: 70%; margin-right: 5%;
@@ -269,7 +280,7 @@ a:hover, a:active { outline: 0; }
 
 #divBODY .col1 .iconBullet {
     float: left; clear: none;
-    margin: -8px 0 0 -40px;
+    margin: -8px 0 -10px -40px;
 }
 
 #divBODY .col1 .iconBullet::before {
@@ -345,7 +356,7 @@ a:hover, a:active { outline: 0; }
     font-family: "raleway-bold", Arial, Helvetica, sans-serif;
     font-size: 100%;
     line-height: 150%;
-    padding: 5px; box-sizing: border-box;
+    padding: 5px 30px 5px 0; box-sizing: border-box;
 }
 
 #divBODY .col2 {

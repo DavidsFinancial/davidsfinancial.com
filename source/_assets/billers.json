@@ -1,0 +1,2066 @@
+[
+  {
+    "id": 12,
+    "title": "Cablevision of Southern Westchester",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 11,
+    "title": "Cablevision of Lynbrook",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 9,
+    "title": "Atlantic City Electric",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 10,
+    "title": "Cablevision of Brookhaven",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 8,
+    "title": "Adelphia Communications Corp",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 13,
+    "title": "Cablevision of Rockland/Ramapo",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 14,
+    "title": "Cablevision of Bayonne",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 15,
+    "title": "Cablevision of Connecticut",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 16,
+    "title": "Cablevision of Cross River",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 17,
+    "title": "Cablevision of Dutchess County",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 18,
+    "title": "Cablevision of East Hampton",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 19,
+    "title": "Cablevision of Great Neck",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 20,
+    "title": "Cablevision of Hamilton",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 21,
+    "title": "Cablevision of Hudson",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 22,
+    "title": "Cablevision of Islip",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 23,
+    "title": "Cablevision of Litchfield",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 24,
+    "title": "Cablevision of Long Island",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 25,
+    "title": "Cablevision of Monmouth-East",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 26,
+    "title": "Cablevision of Monmouth-Ocean",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 27,
+    "title": "Cablevision of Monmouth-Seaside",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 28,
+    "title": "Cablevision of Monmouth-West",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 29,
+    "title": "Cablevision of Morris",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 30,
+    "title": "Cablevision of New Jersey",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 31,
+    "title": "Cablevision of New York City - Bronx",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 32,
+    "title": "Cablevision of New York City - Brooklyn",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 33,
+    "title": "Cablevision of Newark",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 34,
+    "title": "Cablevision of Ossining",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 35,
+    "title": "Cablevision of Raritan Valley",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 36,
+    "title": "Cablevision of Riverhead",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 37,
+    "title": "Cablevision of Southern Connecticut",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 38,
+    "title": "Cablevision of Wappinger Falls",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 39,
+    "title": "Cablevision of Warwick",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 40,
+    "title": "Cablevision of Westchester",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 41,
+    "title": "Camden County Municipal Utilities Authority",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 42,
+    "title": "Charter Communications - CT",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 43,
+    "title": "City of Newark Water",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 44,
+    "title": "Comcast - Central NJ",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 45,
+    "title": "Comcast - Meadowlands",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 46,
+    "title": "Comcast - Plainfield",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 47,
+    "title": "Comcast - Bethel",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 48,
+    "title": "Comcast - Brunswick",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 49,
+    "title": "Comcast - Clinton",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 50,
+    "title": "Comcast - Connecticut Phone",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 51,
+    "title": "Comcast - Danbury",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 52,
+    "title": "Comcast - Danville",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 53,
+    "title": "Comcast - Garden State",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 54,
+    "title": "Comcast - Groton",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 55,
+    "title": "Comcast - Jersey City",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 56,
+    "title": "Comcast - Monmouth",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 57,
+    "title": "Comcast - New Haven",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 58,
+    "title": "Comcast - Norwich",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 59,
+    "title": "Comcast - Ocean City",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 60,
+    "title": "Comcast - Seymour, CT",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 61,
+    "title": "Comcast - Somerset NJ",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 62,
+    "title": "Comcast - Tom's River",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 63,
+    "title": "Comcast - Trenton",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 64,
+    "title": "Comcast - Waterbury, Ct",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 65,
+    "title": "Connecticut Light and Power",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 66,
+    "title": "Connecticut Natural Gas",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 67,
+    "title": "Consolidated Edison",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 68,
+    "title": "Cox Communications New England-Connecticut",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 69,
+    "title": "DirecTV",
+    "id_category": 5,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 70,
+    "title": "Dish Network - Monthly Service",
+    "id_category": 5,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 71,
+    "title": "EarthLink Inc.",
+    "id_category": 5,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 72,
+    "title": "Elizabethtown Gas",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 73,
+    "title": "Elizabethtown Water Co. INSERT INTO billers VALUES (2)",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 74,
+    "title": "First Energy - GPU",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 75,
+    "title": "Frontier Telephone of Rochester",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 76,
+    "title": "Hoffman Fuel Company of Danbury",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 77,
+    "title": "Hoffman Fuel of Bridgeport",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 78,
+    "title": "Long Island Water Co.",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 79,
+    "title": "MCI - Neighborhood/Residential",
+    "id_category": 5,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 80,
+    "title": "MCI - Residential? or The Neighborhood Residential",
+    "id_category": 5,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 81,
+    "title": "Mount Laurel Township NJ MUA",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 82,
+    "title": "National Fuel",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 83,
+    "title": "National Grid - New England",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 84,
+    "title": "National Grid - Niagara Mohawk Power Company- Regular",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 85,
+    "title": "National Grid - Power Company - Regular",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 86,
+    "title": "National Grid / Keyspan Energy Delivery - NY Metro",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 87,
+    "title": "National Grid / Keyspan Energy Delivery LI",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 88,
+    "title": "NE Tech and Telecom",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 89,
+    "title": "New Jersey American Water Co.",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 90,
+    "title": "New Jersey Natural Gas",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 91,
+    "title": "New York State Electric and Gas",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 92,
+    "title": "Northern Utilities",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 93,
+    "title": "Norwich Public Utilities",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 94,
+    "title": "Orange & Rockland Electric",
+    "id_category": 5,
+    "available": "NY, NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 95,
+    "title": "Pennsylvania Power and Light",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 96,
+    "title": "PSE&G",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 97,
+    "title": "Public Service Telephone Company",
+    "id_category": 5,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 98,
+    "title": "RCN ICOMS",
+    "id_category": 5,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 99,
+    "title": "Rochester Gas and Electric",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 100,
+    "title": "Rochester Public Utilities",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 101,
+    "title": "Rockland Electric",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 102,
+    "title": "South Jersey Gas Company",
+    "id_category": 5,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 103,
+    "title": "Sprint - Long Distance",
+    "id_category": 5,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 104,
+    "title": "Time Warner Cable - Albany",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 105,
+    "title": "Time Warner Cable - Newburgh",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 106,
+    "title": "Time Warner Cable - Northeast",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 107,
+    "title": "Time Warner Cable - Binghamton",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 108,
+    "title": "Time Warner Cable - Buffalo",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 109,
+    "title": "Time Warner Cable - NYC",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 110,
+    "title": "Time Warner Cable - Syracuse",
+    "id_category": 5,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 111,
+    "title": "United Water Management",
+    "id_category": 5,
+    "available": "NY, NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 112,
+    "title": "Verizon Communications",
+    "id_category": 5,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 113,
+    "title": "Verizon Online",
+    "id_category": 5,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 114,
+    "title": "Yankee Gas Services",
+    "id_category": 5,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 115,
+    "title": "Cingular Wireless",
+    "id_category": 4,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 116,
+    "title": "ePayNGo",
+    "id_category": 4,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 117,
+    "title": "MCI",
+    "id_category": 4,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 118,
+    "title": "MCI - Preferred",
+    "id_category": 4,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 119,
+    "title": "Sprint",
+    "id_category": 4,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 120,
+    "title": "Sprint PCS",
+    "id_category": 4,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 121,
+    "title": "Sprint/Nextel",
+    "id_category": 4,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 122,
+    "title": "T-Mobile",
+    "id_category": 4,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 123,
+    "title": "Verizon Wireless",
+    "id_category": 4,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 124,
+    "title": "Amazon",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 125,
+    "title": "American Eagle Dual Card",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 126,
+    "title": "Best Buy Co. HSBC",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 127,
+    "title": "Bob's Discount Furniture",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 128,
+    "title": "Domestications",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 129,
+    "title": "E-Bay Dual Card/Pay Pal Plus",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 130,
+    "title": "Fingerhut",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 131,
+    "title": "GAP",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 132,
+    "title": "Gap/Old Navy/Banana Republic Dual Card",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 133,
+    "title": "Harlem Furniture",
+    "id_category": 3,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 134,
+    "title": "Harlem Furniture HSBC",
+    "id_category": 3,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 135,
+    "title": "Home Depot Cards",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 136,
+    "title": "Ikea",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 137,
+    "title": "Ikea Card",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 138,
+    "title": "JC Penney - Major",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 139,
+    "title": "JC Penney - Regular",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 140,
+    "title": "JC Penney Dual",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 141,
+    "title": "JC Penney Fixed",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 142,
+    "title": "Kohl's Department Store",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 143,
+    "title": "Lerner Mail Order",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 144,
+    "title": "Levitz",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 145,
+    "title": "Limited Fashion Group",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 146,
+    "title": "Lord & Taylor",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 147,
+    "title": "Lowe's",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 148,
+    "title": "Lowes Dual Card",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 149,
+    "title": "Macy's - all divisions",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 150,
+    "title": "Modell's Sporting Goods",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 151,
+    "title": "New York & Company",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 152,
+    "title": "New York & Company MasterCard",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 153,
+    "title": "Old Navy",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 154,
+    "title": "Payless",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 155,
+    "title": "QVC",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 156,
+    "title": "Sam's Club - Business Card",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 157,
+    "title": "Sam's Club - Consumer Card",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 158,
+    "title": "Sam's Club Dual Card",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 159,
+    "title": "Sears",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 160,
+    "title": "Sears / Kmart Retail Services",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 161,
+    "title": "Sears Card",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 162,
+    "title": "Sears Commercial One",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 163,
+    "title": "Sears HSBC",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 164,
+    "title": "Sears MasterCard",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 165,
+    "title": "Swezey's",
+    "id_category": 3,
+    "available": "",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 166,
+    "title": "Target",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 167,
+    "title": "Victoria's Secret",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 168,
+    "title": "Walmart Card",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 169,
+    "title": "Walmart Dual Card",
+    "id_category": 3,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 170,
+    "title": "Anthem Health Plans of CT",
+    "id_category": 10,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 171,
+    "title": "GEICO",
+    "id_category": 10,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 172,
+    "title": "Met Life Bank INSERT INTO billers VALUES (mortgage)",
+    "id_category": 10,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 173,
+    "title": "MetLife Auto & Home",
+    "id_category": 10,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 174,
+    "title": "Metlife Benefits",
+    "id_category": 10,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 175,
+    "title": "MetLife Insurance Co",
+    "id_category": 10,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 176,
+    "title": "Nationwide Insurance",
+    "id_category": 10,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 177,
+    "title": "Nationwide Life and Annuity Insurance Company",
+    "id_category": 10,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 178,
+    "title": "Nationwide Life Insurance",
+    "id_category": 10,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 179,
+    "title": "State Farm Insurance",
+    "id_category": 10,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 180,
+    "title": "BMW Financial Services",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 181,
+    "title": "Chase Auto Lease",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 182,
+    "title": "Chase Auto Loans",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 183,
+    "title": "Chrysler Financial Corp.",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 184,
+    "title": "Citibank - Shell Mastercard",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 185,
+    "title": "Exxon",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 186,
+    "title": "Ford Credit Co",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 187,
+    "title": "Ford Motor Credit - Car Loans and Leases",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 188,
+    "title": "Hyundai Motor Finance - Retail",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 189,
+    "title": "Hyundai Motor Finance Company - Lease Payments",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 190,
+    "title": "Lexus Financial Services - Loan / Retail",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 191,
+    "title": "Mercedes Benz",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 192,
+    "title": "Mitsubishi Motors - Lease",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 193,
+    "title": "Mitsubishi Motors - Retail",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 194,
+    "title": "Nissan Motor Acceptance Corp. / Lease",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 195,
+    "title": "Nissan Motor Acceptance Corp. / Loan",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 196,
+    "title": "Shell Oil",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 197,
+    "title": "Sunoco",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 198,
+    "title": "Texaco - USA",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 199,
+    "title": "Toyota Motor Credit - Loan / Retail",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 200,
+    "title": "Volkswagen Credit",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 201,
+    "title": "Volvo Car Finance North America",
+    "id_category": 2,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 202,
+    "title": "American Express - All Products",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 203,
+    "title": "Capital One",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 204,
+    "title": "Chase Cardmember Service",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 205,
+    "title": "Chase Heritage Visa",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 206,
+    "title": "Chase Manhattan - MasterCard",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 207,
+    "title": "Chase MasterCard & Visa",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 208,
+    "title": "Citi MasterCard",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 209,
+    "title": "Citibank - Associates",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 210,
+    "title": "Citibank - AT&T Universal Card",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 211,
+    "title": "Citibank - Business Card",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 212,
+    "title": "Citibank - Choice MasterCard",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 213,
+    "title": "Citibank - Choice Visa",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 214,
+    "title": "Citibank - MasterCard",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 215,
+    "title": "Citibank - Mellon",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 216,
+    "title": "Citibank - Preferred MasterCard",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 217,
+    "title": "Citibank - Preferred Visa",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 218,
+    "title": "Citibank - Puerto Rico",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 219,
+    "title": "Citibank - Travelers",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 220,
+    "title": "Citibank - Travelers Line of Credit",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 221,
+    "title": "Citibank - Visa",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 222,
+    "title": "Citibank MasterCard / Visa - Government Card",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 223,
+    "title": "Citibank MasterCard / Visa",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 224,
+    "title": "Citibank - American Express",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 225,
+    "title": "CitiBusiness Card",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 226,
+    "title": "Discover Card",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 227,
+    "title": "First PREMIER Bank Visa/MasterCard",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 228,
+    "title": "HSBC Card Services",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 229,
+    "title": "Merrick Bank/MasterCard & Visa",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 230,
+    "title": "Network Card / Retailers Bank",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 231,
+    "title": "Paypal Buyer Credit",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 232,
+    "title": "UMB Bank Card Services",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 233,
+    "title": "Washington Mutual Card Services",
+    "id_category": 9,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 234,
+    "title": "Bank of America Consumer Loans CT",
+    "id_category": 6,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 235,
+    "title": "Bank of America Consumer Loans NJ",
+    "id_category": 6,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 236,
+    "title": "Bethpage Federal Credit Union",
+    "id_category": 6,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 237,
+    "title": "Dell Financial Service",
+    "id_category": 6,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 238,
+    "title": "GE Money Bank",
+    "id_category": 6,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 239,
+    "title": "Jamaica National Overseas",
+    "id_category": 6,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 240,
+    "title": "Mid Hudson Valley? Federal Credit Union",
+    "id_category": 6,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 241,
+    "title": "Sallie Mae",
+    "id_category": 6,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 242,
+    "title": "State Employees - New York Credit Union",
+    "id_category": 6,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 243,
+    "title": "Teacher Credit Union",
+    "id_category": 6,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 244,
+    "title": "Washington Mutual",
+    "id_category": 6,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 245,
+    "title": "Washington Mutual Consumer Lending",
+    "id_category": 6,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 246,
+    "title": "NYC Housing Authority INSERT INTO billers VALUES (NYCHA)",
+    "id_category": 18,
+    "available": "NY INSERT INTO billers VALUES (select locations)",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 247,
+    "title": "American Airlines",
+    "id_category": 18,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 248,
+    "title": "BFI",
+    "id_category": 18,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 249,
+    "title": "Deptford Township MUA",
+    "id_category": 18,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 250,
+    "title": "Marcus Garvey Houses",
+    "id_category": 18,
+    "available": "NY",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 251,
+    "title": "Pennsauken Sewerage Authority",
+    "id_category": 18,
+    "available": "NJ",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 252,
+    "title": "The Town of Vernon, CT INSERT INTO billers VALUES (Motor Vehicle)",
+    "id_category": 18,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 253,
+    "title": "The Town of Vernon, CT INSERT INTO billers VALUES (Personal Property)",
+    "id_category": 18,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 254,
+    "title": "The Town of Vernon, CT INSERT INTO billers VALUES (Real Estate Tax)",
+    "id_category": 18,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 255,
+    "title": "Town of Winchester, CT INSERT INTO billers VALUES (Metered Sewer)",
+    "id_category": 18,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 256,
+    "title": "Town of Winchester, CT INSERT INTO billers VALUES (Metered Water)",
+    "id_category": 18,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 257,
+    "title": "Town of Winchester, CT INSERT INTO billers VALUES (Motor Vehicle)",
+    "id_category": 18,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 258,
+    "title": "Town of Winchester, CT INSERT INTO billers VALUES (Personal Property)",
+    "id_category": 18,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 259,
+    "title": "Town of Winchester, CT INSERT INTO billers VALUES (Real Estate)",
+    "id_category": 18,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 260,
+    "title": "Town of Winchester, CT INSERT INTO billers VALUES (Sewer Usage)",
+    "id_category": 18,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 261,
+    "title": "Town of Winchester, CT INSERT INTO billers VALUES (Supplemental Motor Vehicle)",
+    "id_category": 18,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 262,
+    "title": "Town of Winchester, CT INSERT INTO billers VALUES (Water Usage)",
+    "id_category": 18,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 263,
+    "title": "Waste Management",
+    "id_category": 18,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 264,
+    "title": "West Milford Municipal Utilities",
+    "id_category": 18,
+    "available": "CT",
+    "visible": 1,
+    "rank": ""
+  },
+  {
+    "id": 265,
+    "title": "XM Satellite Radio",
+    "id_category": 18,
+    "available": "All",
+    "visible": 1,
+    "rank": ""
+  }
+]
