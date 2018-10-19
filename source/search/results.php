@@ -76,7 +76,7 @@
             float: left; clear: both; width: 100%;
             font-family: "raleway-medium", Arial, Helvetica, sans-serif;
             font-size: 100%;
-            padding: 5px 0 0 35px; box-sizing: border-box;
+            padding: 0 0 0 35px; box-sizing: border-box;
         }
 
         .result .url {
@@ -94,7 +94,7 @@
     <?php
 
     //Search Database Content
-    $result = $MYSQL_CONN->query("SELECT * FROM searchEngine WHERE text LIKE '%" . $_POST['searchText'] ."%'");
+    $result = $MYSQL_CONN->query("SELECT * FROM searchEngine WHERE UPPER(text) LIKE '%" . strtoupper($_POST['searchText']) ."%'");
 
     $searchResults = "";
     $resultsFound = 0;
@@ -121,7 +121,7 @@
                 //Replace Found Text with highlighted text
                 $textSnippet = str_replace($_POST['searchText'], "<span class='highlight'>" . $_POST['searchText'] . "</span>", $textSnippet);
 
-                $searchResults .= '<div class="result">
+                $searchResults .= '<div class="result" onClick="location.href=\''.$url_prefix.$url.'\'">
                                         <div class="page">
                                             <span class="pgIcon">&nbsp;</span><span class="pgLabel">'.$page.'</span>
                                          </div>
