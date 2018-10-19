@@ -10,23 +10,18 @@ if($_SERVER['PHP_ENV'] != "production"){
 }
 
 // Create connection
-if(!$MYSQL_CONN = mysql_connect($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD)){
+if(!$MYSQL_CONN = new mysqli($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD, $MYSQL_DB)){
     echo 'Could not connect to database'; exit;
 }
 
-// Check connection
-if (!mysql_select_db($MYSQL_DB, $MYSQL_CONN)) {
-    echo 'Could not select database'; exit;
-}
 
-$query = "SELECT * FROM billers ORDER BY title ASC";
-$result = mysql_query($query, $MYSQL_CONN);
+$result = $MYSQL_CONN->query("SELECT * FROM billers ORDER BY title ASC");
 
 $billers = "";
 if (!$result) {
     $billers = "<div class='item'>No Billers Found</div>";
 }else{
-    while ($row = mysql_fetch_assoc($result)) {
+    while ($row = $result->fetch_assoc()) {
         $name = $row['title'];
         $nameTag = strtolower($row['title']);
         $nameTag = str_replace('.', '', $nameTag);
@@ -44,7 +39,7 @@ if (!$result) {
     }
 }
 
-mysql_free_result($result);
+mysqli_free_result($result);
 
 ?>
 <!DOCTYPE html>
