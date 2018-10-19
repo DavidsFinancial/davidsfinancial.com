@@ -66,8 +66,8 @@
                 <div class="contentTitle">The Choice is Yours – Stop in and Enroll Today!</div>
             </div>
             <div class="col2">
-                <?php require('../_layouts/ebtSchedule.php') ?>
                 <?php require('../_layouts/storeFinder.php') ?>
+                <?php require('../_layouts/ebtSchedule.php') ?>
             </div>
         </div>
     </div>

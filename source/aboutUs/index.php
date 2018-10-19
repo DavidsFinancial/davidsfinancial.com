@@ -41,8 +41,8 @@
                 </div>
             </div>
             <div class="col2">
-                <?php require('../_layouts/ebtSchedule.php') ?>
                 <?php require('../_layouts/storeFinder.php') ?>
+                <?php require('../_layouts/ebtSchedule.php') ?>
             </div>
         </div>
     </div>
