@@ -1,14 +1,42 @@
+<?php
+if($_SERVER['PHP_ENV'] != "production"){
+    require('../../.scripts/mysqlCredentials.php');
+}else{
+    $MYSQL_HOST = $_SERVER['MYSQL_HOST'];
+    $MYSQL_UNAME = $_SERVER['MYSQL_UNAME'];
+    $MYSQL_PWD = $_SERVER['MYSQL_PWD'];
+    $MYSQL_DB = $_SERVER['MYSQL_DB'];
+}
+
+// Create connection
+if(!$MYSQL_CONN = new mysqli($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD, $MYSQL_DB)){
+    echo 'Could not connect to database'; exit;
+}
+?>
 <script language="javascript">
     function navigateTo(url){
         location.href= '<?php echo $url_prefix; ?>' + url;
     }
+
+    $(document).ready(function() {
+        $('#searchText').val('').keypress(function (e) {
+            if (e.which == 13) {
+                $('#frmSearch').submit()
+            }
+        });
+    })
+
 </script>
 <div id="divHEADER">
     <div class="top">
         <div class="innerContainer">
             <div class="branding" title="Davids Financial Logo" onClick="location.href='<?php echo $url_prefix; ?>'">&nbsp;</div>
             <div class="topMenu">
-                <div class="searchItem" style="width: auto;"><input class="search" type="text" value="" alt="Search text box"></div>
+                <div class="searchItem" style="width: auto;">
+                    <form id="frmSearch" name="frmSearch" action="<?php echo $url_prefix; ?>search" method="POST" enctype="application/x-www-form-urlencoded">
+                        <input id="searchText" name="searchText" class="search" type="text" value="" alt="Search text box">
+                    </form>
+                </div>
                 <div class="item" data-icon="about" data-state="<?php echo $menuState['aboutUs'] ?>" title="Menu (About Us)" onClick="navigateTo('aboutUs')"></div>
                 <div class="item" data-icon="employment" data-state="<?php echo $menuState['employment'] ?>" title="Menu (Employment Opportunities)" onClick="navigateTo('employment')"></div>
                 <div class="item" data-icon="contact" data-state="<?php echo $menuState['contactUs'] ?>" title="Menu (Contact Us)" onClick="navigateTo('contactUs')"></div>

@@ -1,47 +1,3 @@
-<?php
-//Get Billers
-if($_SERVER['PHP_ENV'] != "production"){
-    require('../../.scripts/mysqlCredentials.php');
-}else{
-    $MYSQL_HOST = $_SERVER['MYSQL_HOST'];
-    $MYSQL_UNAME = $_SERVER['MYSQL_UNAME'];
-    $MYSQL_PWD = $_SERVER['MYSQL_PWD'];
-    $MYSQL_DB = $_SERVER['MYSQL_DB'];
-}
-
-// Create connection
-if(!$MYSQL_CONN = new mysqli($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD, $MYSQL_DB)){
-    echo 'Could not connect to database'; exit;
-}
-
-
-$result = $MYSQL_CONN->query("SELECT * FROM billers ORDER BY title ASC");
-
-$billers = "";
-if (!$result) {
-    $billers = "<div class='item'>No Billers Found</div>";
-}else{
-    while ($row = $result->fetch_assoc()) {
-        $name = $row['title'];
-        $nameTag = strtolower($row['title']);
-        $nameTag = str_replace('.', '', $nameTag);
-        $nameTag = str_replace('-', '',  $nameTag);
-        $nameTag = str_replace('?', '',  $nameTag);
-        $nameTag = str_replace('(', '',  $nameTag);
-        $nameTag = str_replace(')', '',  $nameTag);
-        $nameTag = str_replace('/', '',  $nameTag);
-        $nameTag = str_replace('&', '',  $nameTag);
-        $nameTag = str_replace("'", "",  $nameTag);
-        $nameTag = str_replace(',', '',  $nameTag);
-
-        //echo $nameTag ."<br>";
-        $billers .= '<div class="itemBiller" data-value="' . $nameTag .'">' . $name . '</div>';
-    }
-}
-
-mysqli_free_result($result);
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -106,6 +62,35 @@ mysqli_free_result($result);
 <body>
 <div id="divCONTAINER">
     <?php require('../_layouts/header.php') ?>
+    <?php
+    //Get Billers
+    $result = $MYSQL_CONN->query("SELECT * FROM billers ORDER BY title ASC");
+
+    $billers = "";
+    if (!$result) {
+        $billers = "<div class='item'>No Billers Found</div>";
+    }else{
+        while ($row = $result->fetch_assoc()) {
+            $name = $row['title'];
+            $nameTag = strtolower($row['title']);
+            $nameTag = str_replace('.', '', $nameTag);
+            $nameTag = str_replace('-', '',  $nameTag);
+            $nameTag = str_replace('?', '',  $nameTag);
+            $nameTag = str_replace('(', '',  $nameTag);
+            $nameTag = str_replace(')', '',  $nameTag);
+            $nameTag = str_replace('/', '',  $nameTag);
+            $nameTag = str_replace('&', '',  $nameTag);
+            $nameTag = str_replace("'", "",  $nameTag);
+            $nameTag = str_replace(',', '',  $nameTag);
+
+            //echo $nameTag ."<br>";
+            $billers .= '<div class="itemBiller" data-value="' . $nameTag .'">' . $name . '</div>';
+        }
+    }
+
+    mysqli_free_result($result);
+
+    ?>
     <div id="divBODY">
         <div class="innerContainer">
             <div class="title">BILL PAYMENT</div>
