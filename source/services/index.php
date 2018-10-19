@@ -184,7 +184,7 @@
                 <div class="content">
                     You finally filled up your piggy bank and don't know what to do with so many coins? It's very simple: just bring your coins to a select Davids location and our automated, self-service coin counting machine will do all of the work for you. It is as easy as slipping the coins into the machine, printing a receipt and getting your cash right away at the teller window.
                     <p>This service is available only at select Davids locations and there is a 10% fee for this service.
-                    <p>Click here for available <span class="storeLocations" onClick="location.href='<?php echo $url_prefix; ?>locations'">Store Locations</span>
+                    <p>Click the button for available <span class="storeLocations" onClick="location.href='<?php echo $url_prefix; ?>locations'">Store Locations</span>
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>FAX & COPY SERVICES</div>
                 <div class="content">

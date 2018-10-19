@@ -27,6 +27,8 @@
             <span onClick="navigateTo('contactUs')">Contact Us</span>
             <span onClick="navigateTo('employment')">Employment</span>
             <span onClick="navigateTo('aboutUs')">About Us</span>
+            <span onClick="navigateTo('siteMap')">Site Map</span>
+            <span onClick="navigateTo('accessibility')">Accessibility</span>
             <span onClick="navigateTo('privacy')">Privacy</span>
             <span onClick="navigateTo('legal')">Legal</span>
         </div>

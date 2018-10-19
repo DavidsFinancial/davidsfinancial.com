@@ -20,7 +20,7 @@
             <div class="col1">
                 <div class="sectionTitle"><div class="iconBullet"></div>ASK A QUESTION</div>
                 <div class="content">
-
+                    Please email us at <a href="mailto:info@davidsfinancial.com" target="_blank" title="info@davidsfinancial.com">info@davidsfinancial.com</a> with your name, email address, phone number (optional) and message, and representative will get back to you as soon as possible.
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>RETAIL</div>
                 <div class="content">

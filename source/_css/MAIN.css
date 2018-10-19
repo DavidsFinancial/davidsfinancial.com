@@ -103,7 +103,7 @@ audio:not([controls]) { display: none; }
 
 body {
     background-attachment: fixed;
-    background-color: #FFF;
+    background-color: #000;
     text-align: center;
     line-height: 1;
     font-size: 100%;
@@ -238,6 +238,7 @@ a:hover, a:active { outline: 0; }
     display: table;
     float: left; clear: both;
     width: 100%;
+    background-color: #FFF;
 }
 
 #divBODY .title {
@@ -275,7 +276,7 @@ a:hover, a:active { outline: 0; }
     font-family: "raleway-semibold", Arial, Helvetica, sans-serif;
     font-size: 130%;
     color: #006861;
-    margin: 60px 0 30px; padding: 0; box-sizing: border-box;
+    margin: 50px 0 30px; padding: 0; box-sizing: border-box;
 }
 
 #divBODY .col1 .iconBullet {
@@ -386,7 +387,7 @@ a:hover, a:active { outline: 0; }
 }
 
 #divFOOTER .partners .item { display: inline-block; width: auto; margin: 0 10px; }
-#divFOOTER .partners .item img { width: 100%;}
+#divFOOTER .partners .item img { max-width: 100px; max-height: 60px; vertical-align: middle}
 
 #divFOOTER .mainMenu {
     font-family: "raleway-medium", Arial, Helvetica, sans-serif;

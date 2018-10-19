@@ -114,12 +114,24 @@
                     <br>e-mail: jobs@davidsfinancial.com
                 </div>
                 <div class="content">
-                    <div class="btnPDFLink" title="Bonus Bucks Terms & Conditions" onClick="window.open('<?php echo $url_prefix; ?>_assets/davidsEmploymentApplication.pdf');">EMPLOYMENT APPLICATION (PDF)</div>
+                    <div class="btnPDFLink" title="Employment Application (PDF)" onClick="window.open('<?php echo $url_prefix; ?>_assets/davidsEmploymentApplication.pdf');">EMPLOYMENT APPLICATION (PDF)</div>
                 </div>
             </div>
             <div class="col2">
                 <?php require('../_layouts/storeFinder.php') ?>
                 <?php require('../_layouts/ebtSchedule.php') ?>
+                <script>
+                    (function() {
+                        var cx = '003727991870871555511:rlwdf1pfots';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                    })();
+                </script>
+                <gcse:search></gcse:search>
             </div>
         </div>
     </div>
