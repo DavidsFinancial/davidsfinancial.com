@@ -1,20 +1,21 @@
 <?php
-phpinfo(); exit;
-?>
-<?php
 //Get Billers
-if($PHP_ENV != "production"){
+if($_SERVER['PHP_ENV'] != "production"){
     require('../../.scripts/mysqlCredentials.php');
+}else{
+    $MYSQL_HOST = $_SERVER['MYSQL_HOST'];
+    $MYSQL_UNAME = $_SERVER['MYSQL_UNAME'];
+    $MYSQL_PWD = $_SERVER['MYSQL_PWD'];
+    $MYSQL_DB = $_SERVER['MYSQL_DB'];
 }
 
-
 // Create connection
-if(!$MYSQL_CONN = mysql_connect($MYSQL_HOST, $MYSQL_UNAME, $MYSQL_PWD)){
+if(!$MYSQL_CONN = mysql_connect($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD)){
     echo 'Could not connect to database'; exit;
 }
 
 // Check connection
-if (!mysql_select_db('davidsFinDB1', $MYSQL_CONN)) {
+if (!mysql_select_db($MYSQL_DB, $MYSQL_CONN)) {
     echo 'Could not select database'; exit;
 }
 
