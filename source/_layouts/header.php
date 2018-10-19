@@ -33,7 +33,7 @@ if(!$MYSQL_CONN = new mysqli($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD, $MYSQL_DB))
             <div class="branding" title="Davids Financial Logo" onClick="location.href='<?php echo $url_prefix; ?>'">&nbsp;</div>
             <div class="topMenu">
                 <div class="searchItem" style="width: auto;">
-                    <form id="frmSearch" name="frmSearch" action="<?php echo $url_prefix; ?>search" method="POST" enctype="application/x-www-form-urlencoded">
+                    <form id="frmSearch" name="frmSearch" action="<?php echo $url_prefix; ?>search/results.php" method="POST" enctype="application/x-www-form-urlencoded">
                         <input id="searchText" name="searchText" class="search" type="text" value="" alt="Search text box">
                     </form>
                 </div>
