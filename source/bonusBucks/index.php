@@ -32,7 +32,6 @@
             color: #FFFF00;
         }
 
-
         .chart {
             display: table;
             float: left; clear: both; width: 100%;
