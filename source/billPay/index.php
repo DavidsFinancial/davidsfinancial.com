@@ -1,4 +1,7 @@
 <?php
+phpinfo(); exit;
+?>
+<?php
 //Get Billers
 if($PHP_ENV != "production"){
     require('../../.scripts/mysqlCredentials.php');
