@@ -98,6 +98,32 @@
             line-height: 150%;
             padding: 2px 10px 10px; box-sizing: border-box;
         }
+
+        @media screen and (max-width: 1400px){
+            #hero { width: 100%; height: 35.5vw; background-size: contain; background-position: top; }
+            #hero .message { font-size: 3vw; width: 40vw; margin: 7vw 5vw 0 0; }
+            #hero .message .btnClickHere { font-size: 1.5vw; }
+
+            #services { width: 100%; margin: 0 0 50px; padding-left: 1%; box-sizing: border-box }
+            #services .serviceItemRow { padding: 0 40px; box-sizing: border-box }
+            #services .serviceItem { width: 32%; margin: 10px 1% 10px 0; padding: 0 10px 0 0; box-sizing: border-box; }
+            #services .serviceItem .serviceCol1 {width: 5%; text-align: left;}
+            #services .serviceItem .serviceCol1 img {width: 30px;}
+            #services .serviceItem .serviceCol2 {width: 95%; text-align: left;}
+            #services .serviceItem .serviceCol2 .rowTitle { font-size: 100%; padding: 10px 0 0 10px}
+            #services .serviceItem .serviceCol2 .rowContent { font-size: 85%; line-height: 130%; padding: 10px 0 0 10px}
+        }
+
+        @media screen and (max-width: 768px){
+            #services .serviceItem { width: 100%; margin: 10px 0 10px 0; padding: 0 10px 0 0; box-sizing: border-box; }
+        }
+
+        @media screen and (max-width: 570px){
+            #divBODY .title { font-size: 6vw; margin: 30px 0 20px; }
+            #services .serviceItem {text-align: center }
+            #services .serviceItem .serviceCol1 {float: left; clear: both; width: 100%; text-align: center}
+            #services .serviceItem .serviceCol2 {float: left; clear: both; width: 100%; text-align: center}
+        }
     </style>
 </head>
 <body>

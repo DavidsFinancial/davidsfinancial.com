@@ -23,14 +23,14 @@
             <span onClick="navigateTo('moneyTransfers')">Money Transfer</span>
         </div>
         <div class="subMenu">
-            <span onClick="navigateTo('locations')">Location & Hours</span>
-            <span onClick="navigateTo('contactUs')">Contact Us</span>
-            <span onClick="navigateTo('employment')">Employment</span>
-            <span onClick="navigateTo('aboutUs')">About Us</span>
-            <span onClick="navigateTo('siteMap')">Site Map</span>
-            <span onClick="navigateTo('accessibility')">Accessibility</span>
-            <span onClick="navigateTo('privacy')">Privacy</span>
-            <span onClick="navigateTo('legal')">Legal</span>
+            <span onClick="navigateTo('locations')" data-type="removable">Location & Hours</span>
+            <span onClick="navigateTo('contactUs')" data-type="removable">Contact Us</span>
+            <span onClick="navigateTo('employment')" data-type="removable">Employment</span>
+            <span onClick="navigateTo('aboutUs')" data-type="removable">About Us</span>
+            <span onClick="navigateTo('siteMap')" data-type="keep">Site Map</span>
+            <span onClick="navigateTo('accessibility')" data-type="keep">Accessibility</span>
+            <span onClick="navigateTo('privacy')" data-type="keep">Privacy</span>
+            <span onClick="navigateTo('legal')" data-type="keep">Legal</span>
         </div>
         <div class="disclaimer"><span>david's financial corp</span> is the management company of Davids Check Cashing stores. We have been in business since 1957 and operate 26 locations throughout the New York metro area.
             Davids Check Cashing is licensed by the New York State Banking Department and are subject to the provisions of article IX-A of the Banking Law.</div>

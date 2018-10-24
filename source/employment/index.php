@@ -31,6 +31,16 @@
             background-color: #000;
             color: #FFFF00;
         }
+
+        @media screen and (max-width: 1024px){
+            .btnPDFLink { padding: 10px; font-size: 90%; }
+            .btnPDFLink::after { font-size: 90%; }
+        }
+
+        @media screen and (max-width: 570px){
+            .btnPDFLink { width: 100%; }
+
+        }
     </style>
 </head>
 <body>

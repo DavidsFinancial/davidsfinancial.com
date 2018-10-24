@@ -22,6 +22,20 @@
             color: #096e8f;
             margin: 10px 0 0 0;
         }
+
+        @media screen and (max-width: 1400px){
+            .contentTitle .image { margin-left: 0; }
+        }
+
+        @media screen and (max-width: 880px){
+            .contentTitle { text-align: center !important; }
+            .contentTitle .image { width: 50px; margin: 0 10px 0 0; }
+        }
+
+        @media screen and (max-width: 570px){
+            .contentTitle .image { width: 90px; display: table; float: none; margin: 0 auto; }
+            .contentTitle .callOut {width: 100%; float: left; clear: both;}
+        }
     </style>
 </head>
 <body>

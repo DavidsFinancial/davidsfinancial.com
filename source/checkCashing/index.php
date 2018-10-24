@@ -16,6 +16,8 @@
             border: 1px solid #942d2d;
             cursor: pointer;
             background-color: #a53232;
+            font-family: "raleway-semibold", Arial, Helvetica, sans-serif;
+            font-size: 100%;
             color: #FFF;
         }
 
@@ -37,6 +39,16 @@
             float: left;
             margin: 0 30px 30px 0;
         }
+
+        @media screen and (max-width: 1024px){
+            .btnPDFLink { padding: 10px; font-size: 90%; }
+            .btnPDFLink::after { font-size: 90%; }
+        }
+
+        @media screen and (max-width: 570px){
+            .btnPDFLink { width: 100%; }
+        }
+
     </style>
 </head>
 <body>

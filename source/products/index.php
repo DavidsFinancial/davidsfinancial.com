@@ -19,6 +19,11 @@
             max-width: 150px; max-height: 50px;
             margin: 10px 20px 10px 0;
         }
+
+        @media screen and (max-width: 570px){
+            .prepaid img { max-width: 70px; }
+            .wireless img { max-width: 90px; margin: 0 5px 15px 5px; }
+        }
     </style>
 </head>
 <body>
@@ -44,7 +49,8 @@
                         <div class="item">Green Dot Reloadable Prepaid Visa&reg; Card</div>
                         <div class="item">NetSpend&reg; Visa&reg; Prepaid Debit Card</div>
                         <div class="item">NetSpend&reg; MasterCard&reg; Prepaid Debit Card</div>
-                        <div class="item">excella&reg; Visa&reg; Prepaid Debit Card</div>
+                        <div class="item">NexsCard Visa&reg; Prepaid Debit Card</div>
+                        <div class="item">Insight Card Visa&reg; Prepaid Debit Card</div>
                     </div>
                 </div>
                 <div class="content">
@@ -56,7 +62,7 @@
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>CARD RELOADS</div>
                 <div class="content">If your balance is running low and you need to add money to your card we have a solution for you.</div>
-                <div class="contentTile">We are an authorized reload center for the following cards:</div>
+                <div class="contentTitle">We are an authorized reload center for the following cards:</div>
                 <div class="table">
                     <div class="col_single">
                         <div class="item">Green Dot cards acquired from Davids <span class="bold" style="color: #a00000">($2 Convenience Reload Fee)</span></div>
@@ -86,7 +92,7 @@
                 </div>
                 <div class="content">We offer a variety of brands and amounts. Come in today and stay connected to friends and family.</div>
                 <div class="sectionTitle"><div class="iconBullet"></div>PREPAID LONG DISTANCE</div>
-                <div class="content">Have friends and family in other parts of the U.S. or the world? Stay connected for less. Davids Check Cashing offers a variety of prepaid long distance cards for just pennies per minute. Call to Mexico, the Caribbean, Central America, Europe, Asia, anywhere in the world for less.</div>
+                <div class="content">Have friends and family in other parts of the U.S. or the world? Stay connected for less. Davids Check Cashing offers a variety of prepaid pin-less long distance services for just pennies per minute. Call to Mexico, the Caribbean, Central America, Europe, Asia, anywhere in the world for less.</div>
             </div>
             <div class="col2">
                 <?php require('../_layouts/storeFinder.php') ?>

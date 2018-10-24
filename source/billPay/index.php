@@ -41,6 +41,10 @@
             max-width: 100px; max-height: 50px;
             margin: 0 20px 10px; box-sizing: border-box; overflow: hidden;
         }
+
+        @media screen and (max-width: 570px){
+            #billers .itemBiller { width: 100%; text-align: center; font-size: 11pt; margin: 5px 0; padding: 10px; }
+        }
     </style>
     <script language="javascript">
         function searchBillers(search){

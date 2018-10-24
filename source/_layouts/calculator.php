@@ -9,6 +9,7 @@
         background-image: url('<?php echo $url_prefix; ?>_images/calculator_bkg.png');
         background-repeat: no-repeat;
         background-position: -200px -10px;
+        background-color: #FFF;
     }
 
     #calculator .icon {
@@ -103,9 +104,29 @@
         background-color: #000;
         color: #FFFF00
     }
+
+    @media screen and (max-width: 1400px){
+        #calculator {  background-position: -220px -20px; }
+        #calculator .icon { margin: -10px 0 0 10px; }
+        #calculator .title { font-family: "raleway-bold", Arial, Helvetica, sans-serif; font-size: 80%; }
+        #calculator .table .row .inputs input, #calculator .table .row .inputs #feeTotal { margin: 5px 0; }
+        #calculator .btnCalculate { font-size: 1.5vw; padding: 10px; }
+        #calculator .table { padding: 10px 12px; }
+    }
+
+    @media screen and (max-width: 880px){
+        #calculator .title { font-size: 100%; }
+        #calculator { width: 50%; margin: 0; float: left; clear: none; }
+    }
+
+    @media screen and (max-width: 570px){
+        #calculator .title { font-size: 100%; }
+        #calculator { width: 100%; float: none; display: inline-block; margin: 0 auto;}
+        #calculator .btnCalculate { width: 91%; font-size: 12pt; padding: 10px; }
+    }
 </style>
 <script language="javascript">
-    var percent = 0.0201;
+    var percent = 0.0207;
 
     function Calculate() {
         $('#feeTotal').html('<img src="<?php echo $url_prefix; ?>_images/loading_circleRing.svg" style="height: 15px;">');

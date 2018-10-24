@@ -56,6 +56,20 @@
         background-color: #000;
         color: #FFFF00;
     }
+
+    @media screen and (max-width: 1250px){
+        #storeFinder .subTitle { font-size: 1.6vw; }
+        #storeFinder .list .item { width: 100%; font-size: 90%; padding: 8px; }
+    }
+
+    @media screen and (max-width: 880px){
+        #storeFinder .subTitle { font-size: 11pt; }
+        #storeFinder { width: 48%; margin: 0 0 0 2%; float: left; clear: none; }
+    }
+
+    @media screen and (max-width: 570px){
+        #storeFinder { width: 100%; margin: 10px auto; float: none; display: inline-block }
+    }
 </style>
 <div id="storeFinder">
     <div class="title"><div class="icon"></div>STORE FINDER</div>

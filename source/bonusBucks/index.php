@@ -87,6 +87,18 @@
         .bonusBucks img {
             float: left; clear: none;
         }
+
+        @media screen and (max-width: 1024px){
+            .btnPDFLink { padding: 10px; font-size: 90%; }
+            .btnPDFLink::after { font-size: 90%; }
+        }
+
+        @media screen and (max-width: 570px){
+            .btnPDFLink { width: 100%; }
+            .bonusBucks div { text-align: center}
+            .chart .header { font-size: 11pt; text-align: center }
+            .chart .body .row .left, .chart .body .row .right { font-size: 10pt; padding: 10px; width: 50% }
+        }
     </style>
 </head>
 <body>

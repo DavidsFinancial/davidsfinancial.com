@@ -22,6 +22,11 @@
             color: #000;
             margin: 5px 0 0 10px;
         }
+
+        @media screen and (max-width: 570px){
+            .wuImage { float: none; clear: none; margin: 0 auto; width: 50px;}
+            .callOut { float: left; clear: both; width: 100%; margin: 5px 0;  }
+        }
     </style>
 </head>
 <body>

@@ -98,6 +98,12 @@
         .lottery img {
             max-width: 100px; max-height: 50px; margin: 10px 20px 10px 0;
         }
+
+        @media screen and (max-width: 570px){
+            .chart .header { font-size: 11pt; text-align: center }
+            .chart .body .row .left, .chart .body .row .right { font-size: 10pt; padding: 10px; width: 50% }
+            .storeLocations { display: table; width: 100%; margin-top: 10px; }
+        }
     </style>
 </head>
 <body>
@@ -110,7 +116,7 @@
                 <div class="subtitle">Davids provides a variety of services to help you manage your busy life. Besides helping you manage your money, we can save you time with the convenience of one-stop shopping.</div>
                 <div class="sectionTitle"><div class="iconBullet"></div>ATMs</div>
                 <div class="content">Through our ATMs, Davids offers you the ability of performing a variety of electronic transactions such as cash withdrawals, account transfers and balance inquiries.
-                    <p>($2.00 charge will apply to all ATM transactions and there is a $500.00 maximum withdrawal per transaction.
+                    <p>(<span class="bold">$2.25</span> charge will apply to all ATM transactions and there is a $500.00 maximum withdrawal per transaction.
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>LOTTERY</div>
                 <div class="content">Dozens of Instant Win Games</div>
@@ -193,6 +199,8 @@
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>POSTAGE STAMPS</div>
                 <div class="content">Forget about those long lines at the post office just to get a stamp. For your convenience, we offer postage stamps at all Davids stores.</div>
+                <div class="sectionTitle"><div class="iconBullet"></div>CURRENCY EXCHANGE</div>
+                <div class="content">Exchange your currency in any of our locations.</div>
             </div>
             <div class="col2">
                 <?php require('../_layouts/storeFinder.php') ?>
