@@ -111,7 +111,7 @@
     <?php require('../_layouts/header.php') ?>
     <div id="divBODY">
         <div class="innerContainer">
-            <div class="title">CONVENIENCE SERVICES</div>
+            <div class="title">CONVENIENCE SERVICES </div>
             <div class="col1">
                 <div class="subtitle">Davids provides a variety of services to help you manage your busy life. Besides helping you manage your money, we can save you time with the convenience of one-stop shopping.</div>
                 <div class="sectionTitle"><div class="iconBullet"></div>ATMs</div>
