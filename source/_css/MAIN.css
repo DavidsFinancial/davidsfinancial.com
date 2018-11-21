@@ -500,7 +500,7 @@ a:hover, a:active { outline: 0; }
 
 @media screen and (max-width: 1400px){
     #divBODY { margin-top: 91px; }
-    #divBODY .title {padding: 10px 30px; box-sizing: border-box; font-size: 160%; }
+    #divBODY .title {padding: 10px 30px 0; box-sizing: border-box; font-size: 160%; }
     #divBODY .col1 { padding: 30px; }
 
     #divBODY .col1 .iconBullet { margin: -2px 0 -10px -30px;  }
@@ -510,7 +510,9 @@ a:hover, a:active { outline: 0; }
     #divBODY .col1 .contentTitle { font-size: 100%; }
     #divBODY .col1 .content { font-size: 90%; }
 
+    #divBODY .subtitle { margin: -30px 0 -10px 0;}
     #divBODY .col1 .table .item { font-size: 90%; }
+    #divBODY .col2 { padding-right: 30px; }
 }
 
 @media screen and (max-width: 880px){
