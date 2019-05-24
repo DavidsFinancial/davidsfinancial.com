@@ -233,6 +233,7 @@ a:hover, a:active { outline: 0; }
     font-family: "raleway-semibold", Arial, Helvetica, sans-serif;
     font-size: 100%;
     color: #FFF;
+    border-bottom: 3px solid transparent;
     padding: 20px 0 7px; margin: 0 35px 0 0; box-sizing: border-box;
     cursor: pointer;
 }

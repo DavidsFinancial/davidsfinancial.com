@@ -77,8 +77,8 @@
                     <p>Here’s just a few...
                 </div>
                 <div class="contentTitle" style="margin-top: 20px;">DAVIDS APP</div>
-                <div class="content">Why wait in line or for your check to be approved.  The Davids App offers convenience at your fingertips.  Snap a picture of your check.  Send it remotely.  Visit an express window at any one of our convenient locations to pick up your cash, and pay bills, buy money orders, or load funds to your business reloadable prepaid card.</div>
-                <div class="content"><p>Want to learn more – Just ask for this information (no more than 5 POI): your name, company name, telephone #, email, best way to reach me (email or telephone)</div>
+                <div class="content">Why wait in line or for your check to be approved.  The Davids App offers convenience at your fingertips.  Snap a picture of your check.  Send it remotely.  Visit an express window at any one of our convenient locations to pick up your cash, and pay bills, buy money orders, or load funds to your business reloadable prepaid card.<p></div>
+                <div class="content">Want to learn more – Just ask for this information (no more than 5 POI): your name, company name, telephone #, email, best way to reach me (email or telephone)</div>
                 <div class="contentTitle">DISCOUNTED PAYROLL SERVICES...</div>
                 <div class="content">If you are a Davids customer with three or more employees, you will receive a 25% discount off of ADP‘s standard rates on payroll services through our Partner Program.</div>
                 <div class="contentTitle">AUTO DEALERSHIP SERVICES THAT DRIVE CASHFLOW...</div>
