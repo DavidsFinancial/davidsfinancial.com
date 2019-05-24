@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Bill Payment | Davids Financial</title>
+    <title>Bill Payments and Money Orders | Davids Financial</title>
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="../_css/MAIN.css">
@@ -97,7 +97,7 @@
     ?>
     <div id="divBODY">
         <div class="innerContainer">
-            <div class="title">BILL PAYMENT</div>
+            <div class="title">BILL PAYMENT AND MONEY ORDERS</div>
             <div class="col1">
                 <div class="sectionTitle"><div class="iconBullet"></div>PAY YOUR BILLS AT DAVIDS</div>
                 <div class="content examples">
@@ -117,9 +117,9 @@
                     <img src="<?php echo $url_prefix; ?>_images/billers14.png" title="Ford logo" alt="Ford Logo">
                 </div>
                 <div class="content">
-                    Payments are quicker, more convenient, and more secure. All accounts are credited within 1-3 business days. You can pay your bills on the spot at any Davids teller window.
+                    Payments are quicker, more convenient, and more secure. All accounts are credited in 1-3 business days. You can pay your bills on the spot at any Davids teller window.
                     <p>Strict measures have been taken to ensure complete security during all transactions. Business is conducted
-                        in-person at the window and you will walk away with an instance, payment confirmation receipt.
+                        in-person at the window and you will walk away with a payment confirmation receipt.
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>SEARCH BILLERS</div>
                 <div class="content">Please start typing the biller you would like to pay. A list will populate once you type more than 2 characters and when a match is found.</div>
@@ -131,7 +131,7 @@
                     <?php echo $billers ?>
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>MONEY ORDERS</div>
-                <div class="content">Of course, when you need a paper payment device like a check to pay a bill, there is always a money order. All Davids retail locations sell Western Union Money Orders for any amount up to $1,000. They provide a safe, easy and reliable way to make purchases and pay bills for a very competitive price.</div>
+                <div class="content">Of course, when you need a paper payment like a check to pay a bill, there is always a money order. All Davids retail locations offer Western Union Money Orders for any amount up to $1,000. They provide a safe, easy and reliable way to make purchases and pay bills.</div>
             </div>
             <div class="col2">
                 <?php require('../_layouts/storeFinder.php') ?>

@@ -45,13 +45,13 @@ if(!$MYSQL_CONN = new mysqli($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD, $MYSQL_DB))
     $(document).ready(function() {
         //Initialize States [1, 0]; 1=OFF and 0=ON
         var headerHeights = [
-            {height: '100px'},
-            {height: '190px'}
+            {height: '120px'},
+            {height: '200px'}
         ];
         var headerColors = [{backgroundColor: '#00847c'}, {backgroundColor: '#00847c'}];
         var headerTop = [
-            {height: '40px', padding: '12px 0 10px'},
-            {height: '120px', padding: '30px 0'}
+            {height: '50px', padding: '12px 0 10px'},
+            {height: '110px', padding: '30px 0'}
         ];
         var headerBrandingLogo = [
             {width: '250px', height: '30px'},
@@ -60,22 +60,22 @@ if(!$MYSQL_CONN = new mysqli($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD, $MYSQL_DB))
 
         var headerTopMenu = [
             {height: '1px'},
-            {height: '55px'}
+            {height: '60px'}
         ];
 
         var headerTopWULogo = [
             {height: '50px', margin: '-10px 0 -10px 0'},
-            {height: '1px', margin: '30px 0 -10px'}
+            {height: '1px', margin: '30px 0 -12px'}
         ];
 
         var headerNavigation = [
-            {height: '60px'},
-            {height: '70px'}
+            {height: '70px'},
+            {height: '90px'}
         ];
 
         var headerNavigationItem = [
-            {padding: '15px 0 5px'},
-            {padding: '30px 0 10px'}
+            {padding: '15px 0 5px', fontSize: '80%'},
+            {padding: '20px 0 10px', fontSize: '100%'}
         ];
 
         //for divPERSO_MENU
@@ -128,8 +128,10 @@ if(!$MYSQL_CONN = new mysqli($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD, $MYSQL_DB))
                 }, 300);
 
                 $divHeaderNavigationItem.animate({
-                    padding: headerNavigationItem[newStateIndex].padding
+                    padding: headerNavigationItem[newStateIndex].padding,
                 }, 300);
+
+                $divHeaderNavigationItem.css('font-size', headerNavigationItem[newStateIndex].fontSize);
 
                 if(newStateIndex){
                     //On State
@@ -201,6 +203,9 @@ if(!$MYSQL_CONN = new mysqli($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD, $MYSQL_DB))
     })
 
 </script>
+<style>
+
+</style>
 <div id="divGLOBAL_MENU">
     <div class="innerContainer">
         <div class="item" title="Menu (Find Locations)" onClick="navigateTo('locations')" style="margin-top: 20px">Locations & Hours</div>
@@ -208,12 +213,12 @@ if(!$MYSQL_CONN = new mysqli($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD, $MYSQL_DB))
         <div class="item" title="Menu (Employment Opportunities)" onClick="navigateTo('employment')">Employment</div>
         <div class="item" title="Menu (About Us)" onClick="navigateTo('aboutUs')">About Us</div>
         <div class="divider">&nbsp;</div>
-        <div class="item" title="Go to Check Checking"  onClick="navigateTo('checkCashing')">Check Cashing</div>
-        <div class="item" title="Go to Bonus Bucks"  onClick="navigateTo('bonusBucks')">Bonus Bucks</div>
-        <div class="item" title="Go to Direct Deposit" onClick="navigateTo('directDeposits')">Direct Deposits</div>
+        <div class="item" title="Go to Check Checking" onClick="navigateTo('checkCashing')">Personal Check Cashing</div>
+        <div class="item" title="Go to Business Check Cashing"  onClick="navigateTo('businessCheckCashing')">Business Check Cashing</div>
+        <div class="item" title="Go to Direct Deposit" onClick="navigateTo('directDeposits')">Direct Deposit</div>
         <div class="item" title="Go to Bill Pay" onClick="navigateTo('billPay')">Bill Pay</div>
-        <div class="item" title="Go to Products" onClick="navigateTo('products')">Products</div>
-        <div class="item" title="Go to Services" onClick="navigateTo('services')">Services</div>
+        <div class="item" title="Go to Products" onClick="navigateTo('products')">Prepaid Products</div>
+        <div class="item" title="Go to Services" onClick="navigateTo('services')">Convenience Services</div>
         <div class="item" title="Go to Money Transfers" onClick="navigateTo('moneyTransfers')">Money Transfers</div>
         <div class="divider">&nbsp;</div>
         <div class="item" title="Menu (About Us)" onClick="navigateTo('search/results.php')">Search</div>
@@ -240,14 +245,14 @@ if(!$MYSQL_CONN = new mysqli($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD, $MYSQL_DB))
     <div class="navigation">
         <div class="innerContainer">
             <div id="menuButton" onClick="toggleMenu()">e</div>
-            <div class="item" title="Go to Check Checking"  data-state="<?php echo $menuState['checkCashing'] ?>" onClick="navigateTo('checkCashing')">CHECK CASHING</div>
-            <div class="item" title="Go to Bonus Bucks" data-value="bonusBucks" data-state="<?php echo $menuState['bonusBucks'] ?>" onClick="navigateTo('bonusBucks')">BONUS BUCKS</div>
-            <div class="item" title="Go to Direct Deposit" data-state="<?php echo $menuState['directDeposits'] ?>" onClick="navigateTo('directDeposits')">DIRECT DEPOSITS</div>
-            <div class="item" title="Go to Bill Pay" data-state="<?php echo $menuState['billPay'] ?>" onClick="navigateTo('billPay')">BILL PAY</div>
-            <div class="item" title="Go to Products" data-state="<?php echo $menuState['products'] ?>" onClick="navigateTo('products')">PRODUCTS</div>
-            <div class="item" title="Go to Services" data-state="<?php echo $menuState['services'] ?>" onClick="navigateTo('services')">SERVICES</div>
-            <div class="item" title="Go to Money Transfers" data-value="moneyTransfers" data-state="<?php echo $menuState['moneyTransfers'] ?>" onClick="navigateTo('moneyTransfers')">MONEY TRANSFERS</div>
-            <div class="wuLogo" title="Western Union Services" onClick="navigateTo('moneyTransfers')"><img src="<?php echo $url_prefix; ?>_images/navigation_westernUnionLogo.gif"></div>
+            <div class="item" title="Go to Check Checking"  data-state="<?php echo $menuState['checkCashing'] ?>" onClick="navigateTo('checkCashing')"><span>PERSONAL</span><span>CHECK CASHING</span></div>
+            <div class="item" title="Go to Business Check Cashing" data-value="businessCheckCashing" data-state="<?php echo $menuState['businessCheckCashing'] ?>" onClick="navigateTo('businessCheckCashing')"><span>BUSINESS</span><span>CHECK CASHING</span></div>
+            <div class="item" title="Go to Bonus Bucks" data-value="bonusBucks" data-state="<?php echo $menuState['bonusBucks'] ?>" onClick="navigateTo('bonusBucks')"><span>BONUS</span><span>BUCKS</span></div>
+            <div class="item" title="Go to Direct Deposit" data-state="<?php echo $menuState['directDeposits'] ?>" onClick="navigateTo('directDeposits')"><span>DIRECT</span><span>DEPOSIT</span></div>
+            <div class="item" title="Go to Bill Pay" data-state="<?php echo $menuState['billPay'] ?>" onClick="navigateTo('billPay')"><span>BILL</span><span>PAY</span></div>
+            <div class="item" title="Go to Products" data-state="<?php echo $menuState['products'] ?>" onClick="navigateTo('products')"><span>PREPAID</span><span>PRODUCTS</span></div>
+            <div class="item" title="Go to Services" data-state="<?php echo $menuState['services'] ?>" onClick="navigateTo('services')"><span>CONVENIENCE</span><span>SERVICES</span></div>
+            <div class="wuLogo" title="Western Union Services" onClick="navigateTo('moneyTransfers')"><img src="<?php echo $url_prefix; ?>_images/westernUnionLogo.gif" style="width: 250px;"></div>
         </div>
     </div>
 </div>

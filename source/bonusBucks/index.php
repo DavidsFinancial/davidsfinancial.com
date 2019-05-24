@@ -111,12 +111,12 @@
                 <div class="sectionTitle"><div class="iconBullet"></div>THANK YOU...</div>
                 <div class="content bonusBucks">
                     <div>... for being a loyal Davids customer. We really appreciate your business. That's why we developed BONUS BUCKS. We know that you work hard for your money,
-                        so we designed this program to reward you for your loyalty in doing business with Davids.
-                    <p>Earn points when you cash a check, pay a bill, buy a money order, get or load a prepaid debit card! In fact, you can earn points for most services offered at Davids Check Cashing. See the chart below for details. And when you've earned enough points, cash them in for instant cash rebates, paid on the spot - up to $100!</div>
+                        so we designed this program to reward you for your loyalty.
+                    <p>Earn points when you cash a check, pay a bill, buy a money order, get or load a reloadable prepaid card! In fact, you can earn points for most services offered at Davids Check Cashing. See the chart below for details. And when you've earned enough points, redeem them in for instant cash rebates, paid on the spot - up to $100!</div>
                     <div class="bold">Click the button below for Terms and Conditions</div>
                     <div class="btnPDFLink" title="Bonus Bucks Terms & Conditions" onClick="window.open('<?php echo $url_prefix; ?>_assets/bonusBucksProgram.pdf');">BONUS BUCKS TERMS (PDF)</div>
                 </div>
-                <div class="sectionTitle"><div class="iconBullet"></div>JOIN TODAY! GET YOUR NUMBER CARD & KEY TAG</div>
+                <div class="sectionTitle"><div class="iconBullet"></div>JOIN TODAY! GET YOUR KEY TAG</div>
                 <div class="content">It's free and you can start earning points with your very first transaction.</div>
                 <div class="content">
                     <img src="<?php echo $url_prefix; ?>_images/bonusBucksTags.jpg" title="Bonus Bucks Tag images" style="margin-top: 30px;" alt="Bonus Bucks Tag images">
@@ -202,17 +202,15 @@
                 <div class="contentTitle" style="margin-top: 0;">It's really very simple.</div>
                 <div class="content">If you already have a Davids Check Cashing key tag, you are already enrolled in the program and may already have earned points on past transactions. Check the bottom of your receipt to see what you have already earned.</div>
                 <div class="contentTitle">If you are not enrolled in the program</div>
-                <div class="content">Simply complete a brief account set up in our computer system and you will be issued a special membership card and key tag.</div>
-                <div class="contentTitle">Be sure to use your card or key tag every time</div>
+                <div class="content">Simply ask a sales associate to enroll you today.  You will be issued a key tag.</div>
+                <div class="contentTitle">Be sure to use your or key tag every time</div>
                 <div class="content">you perform a transaction at Davids, and you will get credit for that transaction in your account. Your transaction receipt will have your current point totals printed on it reflecting your points earned through the last transaction.</div>
                 <div class="contentTitle">It's really that simple.</div>
                 <div class="content">So what are you waiting for? Get your membership started today and begin earning points with your next transaction.</div>
-                <div class="contentTitle">At Davids, We Turn Checks Into Cash ... and your business earns you more cash!!</div>
+                <div class="contentTitle">At Davids, We Turn Checks Into Cash ... and your loyalty earns you more cash!!</div>
             </div>
             <div class="col2">
-                <?php require('../_layouts/calculator.php') ?>
                 <?php require('../_layouts/storeFinder.php') ?>
-                <?php require('../_layouts/ebtSchedule.php') ?>
             </div>
         </div>
     </div>

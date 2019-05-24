@@ -20,7 +20,7 @@
             <div class="col1">
                 <div class="sectionTitle"><div class="iconBullet"></div>HISTORY</div>
                 <div class="content">
-                    <div>Since 1957, David's Financial Corp. has helped millions of customers from all walks of life achieve access to cash, bill payment, money order, and other critical financial services. Through our network of 24 friendly neighborhood stores located in the Bronx, Harlem, Brooklyn, Queens and Rockland Country, we serve both individuals and businesses by providing them with liquidity, convenient locations and hours, access to basic financial products and personal service.</div>
+                    <div>Since 1957, David's Financial Corp. has helped millions of customers from all walks of life with access to cash, bill payments, money orders, money transfer, reloadable prepaid cards and other critical financial services. Through our network of friendly neighborhood locations throughout the Bronx, Manhattan, Brooklyn, Queens and Rockland Country, we serve both individuals and businesses by providing them with liquidity, convenient locations and hours operation, access to basic financial products and personal service.</div>
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>WHAT DEFINES DAVIDS?</div>
                 <div class="content">
@@ -30,14 +30,14 @@
                 <div class="content">
                     <div>At David’s the customer comes first. When a customer visits one of our locations, we will do everything we can, within the limitations of the law to assist them. We pledge to our customers that they will receive service that is respectful, friendly, fast and accurate.</div>
                 </div>
-                <div class="contentTitle">Best in Class Service, Trust and Innovation</div>
+                <div class="contentTitle">Trust, Honesty and Integrity</div>
                 <div class="content">
                     <div>We must earn your trust and business every time you visit us. Our employees have a duty to conduct themselves with honesty and integrity to earn your trust. To that end, we commit to careful adherence to the spirit and letter of all applicable laws and regulations. Further, we pledge to adhere to the highest standards of personal conduct and personal integrity.</div>
                 </div>
-                <div class="contentTitle">Best in Class Service, Trust and Innovation</div>
+                <div class="contentTitle">Leadership and Innovation</div>
                 <div class="content">
                     <div>We commit to define and lead the industry of walk-in transaction based financial services. We have accomplished this by forging critical alliances with key players in the belief that our industry can play a central role in the distribution of financial products and services. We continually invest in new technology and product development for the benefit of our customers.</div>
-                    <div>So, welcome to David’s. The greatest way to say “thank you” is to exceed expectations and ensure that you have a “thumbs-up” great experience.</div>
+                    <div><p>So, welcome to David’s. The greatest way to say “thank you” is to exceed expectations and ensure that you have a “thumbs-up” great experience.</div>
                 </div>
             </div>
             <div class="col2">

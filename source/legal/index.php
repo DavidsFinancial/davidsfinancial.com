@@ -57,7 +57,7 @@
                     U.S. export laws or regulations, or in violation of any applicable local laws or regulations. If you
                     have any questions concerning legal or other matters described above, contact David’s
                     Financial Corp. at +1 (718) 585-3943.
-                    <p>Last updated October 2018.</div>
+                    <p>Last updated May 2019.</div>
             </div>
         </div>
     </div>

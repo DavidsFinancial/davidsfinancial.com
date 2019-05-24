@@ -45,7 +45,7 @@
             <div class="col1">
                 <div class="subtitle">Davids Financial is committed to providing a website that is accessible to the widest possible audience. Davids Financial is actively working towards achieving a fully accessible website that endeavours to conform to the World Wide Web Consortium (W3C) Web Content Accessibility Guidelines (WCAG) 2.0.T</div>
                 <div class="sectionTitle"><div class="iconBullet"></div>What we have done to make our site more accessible?</div>
-                <div class="table" style="margin-top: 0;">
+                <div class="table" style="margin: 0 0 -10px 0;">
                     <div class="col_single">
                         <div class="item">Screen Resolution - This web site is designed to respond to the size of your screen. Resize your browser to the size that best suits your needs.</div>
                         <div class="item">Text Contrast Ratio - All text on this site has been created to have a contrast ratio over its background of over 4.5:1. This adheres to W3C Accessibility Guidelines 2.0 level AA.</div>

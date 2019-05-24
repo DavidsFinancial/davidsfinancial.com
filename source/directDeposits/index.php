@@ -43,12 +43,29 @@
     <?php require('../_layouts/header.php') ?>
     <div id="divBODY">
         <div class="innerContainer">
-            <div class="title">DIRECT DEPOSITS</div>
+            <div class="title">DIRECT DEPOSIT</div>
             <div class="col1">
                 <div class="sectionTitle"><div class="iconBullet"></div>NOW YOU CAN GET YOUR MONEY FASTER</div>
-                <div class="contentTitle">
+                <div class="subtitle" style="padding: 20px 0;">Payroll, government benefits or any other type of recurring payment may be set up for direct deposit.  We will help you enroll today.</div>
+                <div class="contentTitle" style="margin-top: 60px;">
+                    <img class="image" src="<?php echo $url_prefix; ?>_images/directDeposits_creditCard.png" alt="Credit Card Image" title="Credit Card Image">
+                    <div class="callOut">The Convenience of Plastic</div>
+                </div>
+                <div class="table" style="margin-top: 20px;">
+                    <div class="col_half">
+                        <div class="item">Receive your money days sooner than in the mail</div>
+                        <div class="item">Your money is automatically loaded to a Visa&reg; or MasterCard&reg; reloadable prepaid card</div>
+                        <div class="item">Use it to make purchases anywhere Visa&reg; or MasterCard&reg; are accepted</div>
+                    </div>
+                    <div class="col_half">
+                        <div class="item">Safer than carrying cash</div>
+                        <div class="item">Get access to cash at thousands of ATMs</div>
+                        <div class="item">Add cash to your card anytime</div>
+                    </div>
+                </div>
+                <div class="contentTitle" style="margin-top: 60px;">
                     <img class="image" src="<?php echo $url_prefix; ?>_images/directDeposits_check.png" alt="Check image" title="Check Image">
-                    <div class="callOut">The Simplicity of a Paper</div>
+                    <div class="callOut">The Simplicity of Paper</div>
                 </div>
                 <div class="table" style="margin-top: 0;">
                     <div class="col_half">
@@ -59,22 +76,6 @@
                     <div class="col_half">
                         <div class="item">Walk out with cash in your hand as usual</div>
                         <div class="item">Payroll, government benefits or any other type of recurring payment can be set up for direct deposit</div>
-                    </div>
-                </div>
-                <div class="contentTitle" style="margin-top: 60px;">
-                    <img class="image" src="<?php echo $url_prefix; ?>_images/directDeposits_creditCard.png" alt="Credit Card Image" title="Credit Card Image">
-                    <div class="callOut">The Convenience of Plastic</div>
-                </div>
-                <div class="table" style="margin-top: 20px;">
-                    <div class="col_half">
-                        <div class="item">Receive your money days sooner than in the mail</div>
-                        <div class="item">Your money is automatically loaded to a Visa&reg; or MasterCard&reg; prepaid debit card</div>
-                        <div class="item">Use it to make purchases anywhere Visa&reg; or MasterCard&reg; are accepted</div>
-                    </div>
-                    <div class="col_half">
-                        <div class="item">Safer than carrying cash</div>
-                        <div class="item">Access cash 24/7 from thousands of ATMs</div>
-                        <div class="item">Add cash to your card anytime</div>
                     </div>
                 </div>
                 <div class="contentTitle">The Choice is Yours – Stop in and Enroll Today!</div>

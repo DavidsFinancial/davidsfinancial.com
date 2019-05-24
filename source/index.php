@@ -9,21 +9,47 @@
     <link rel="stylesheet" href="_css/MAIN.css">
     <style>
         #hero {
-            height: 500px;
-            background-image: url('_images/heroImage_1.jpg');
+            display: table;
+            width: 100%;
+            height: 490px;
+            overflow: hidden;
+        }
+
+        #hero #caro1 {
+            position: absolute;
+            width: 100%;
+            height: 488px;
+            background-image: url('_images/caro_1.jpg');
             background-position: center;
             background-repeat: no-repeat;
+            background-color: #fd821c;
+            z-index: 50;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        #hero #caro2 {
+            position: absolute;
+            width: 100%;
+            height: 488px;
+            background-image: url('_images/caro_2.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #351814;
+            z-index: 30;
+            overflow: hidden;
+            cursor: pointer;
         }
 
         #hero .message {
-            float: right;
+            display: table-cell;
+            float: left;
             font-family: "raleway-regular", Arial, Helvetica, sans-serif;
             font-size: 280%;
             color: #FFF;
             line-height: 120%;
-            text-align: center;
-            width: 670px;
-            margin: 100px 0 0 0;
+            text-align: left; vertical-align: bottom;
+            width: 100%; height: 500px;
         }
 
         #hero .message .btnClickHere {
@@ -45,7 +71,7 @@
             display: table;
             width: 100%;
             float: left; clear: both;
-            margin: 40px 0 80px;
+            margin: 20px 0 80px;
             text-align: left;
         }
 
@@ -125,18 +151,40 @@
             #services .serviceItem .serviceCol2 {float: left; clear: both; width: 100%; text-align: center}
         }
     </style>
+    <script language="javascript">
+        var carouselStart = 1;
+        function changeCarousel(){
+            if(carouselStart == 1){
+                carouselStart = 2;
+
+                $("#hero #caro1").animate({
+                    opacity: 0
+                }, 800, function(){
+                    ;
+                });
+
+            }else{
+                carouselStart = 1;
+                $("#hero #caro1").animate({
+                    opacity: 1
+                }, 800, function(){
+
+                });
+            }
+        }
+
+        $(document).ready(function() {
+            setInterval(changeCarousel, 8000);
+        })
+    </script>
 </head>
 <body>
 <div id="divCONTAINER">
     <?php require('_layouts/header.php') ?>
     <div id="divBODY">
         <div id="hero">
-            <div class="innerContainer">
-                <div class="message">
-                    <div title="Ad: Get Your Benefits, Payroll, Unemployment, or any recurring payment your way!">Get Your Benefits, Payroll, Unemployment, or any recurring payment your way!</div>
-                    <div class="btnClickHere" title="Click here to know more about Direct Deposit" onClick="navigateTo('directDeposits')">CLICK HERE TO KNOW MORE</div>
-                </div>
-            </div>
+            <div id="caro1" onClick="navigateTo('businessCheckCashing');">&nbsp;</div>
+            <div id="caro2" onClick="navigateTo('businessCheckCashing');">&nbsp;</div>
         </div>
         <div id="services">
             <div class="innerContainer">
@@ -149,11 +197,11 @@
                             <div class="rowContent">At Davids Check Cashing, we offer a variety of cash services and cash most types of checks.</div>
                         </div>
                     </div>
-                    <div class="serviceItem" onClick="navigateTo('bonusBucks')">
-                        <div class="serviceCol1"><img src="_images/services_bonusBucks.png" alt="Bonus Bucks icon"></div>
+                    <div class="serviceItem" onClick="navigateTo('services')">
+                        <div class="serviceCol1"><img src="_images/services_unwanted.png" alt="Unwanted Gift Cards icon"></div>
                         <div class="serviceCol2">
-                            <div class="rowTitle">BONUS BUCKS</div>
-                            <div class="rowContent">We know that you work hard for your money, so we designed this program to reward you for your loyalty in doing business with Davids.</div>
+                            <div class="rowTitle">SELL UNWANTED GIFT CARDS</div>
+                            <div class="rowContent">In need of cash?  Bring your unwanted gift cards and store credit to any David’s location and walk out with cash in your pocket</div>
                         </div>
                     </div>
                     <div class="serviceItem" onClick="navigateTo('directDeposits')">
@@ -193,6 +241,13 @@
                         <div class="serviceCol2">
                             <div class="rowTitle">MONEY TRANSFERS</div>
                             <div class="rowContent">Need to send some cash to someone you love? Davids Check Cashing is proud to be an Authorized Western Union Agent.</div>
+                        </div>
+                    </div>
+                    <div class="serviceItem" onClick="navigateTo('moneyTransfers')">
+                        <div class="serviceCol1"><img src="_images/services_foreignCurrency.png" alt="Foreign Currency icon"></div>
+                        <div class="serviceCol2">
+                            <div class="rowTitle">FOREIGN CURRENCY</div>
+                            <div class="rowContent">Back from a recent trip to a foreign country?  Just bring your leftover foreign currency to David’s and we will exchange it for US Dollars, on the spot.</div>
                         </div>
                     </div>
                 </div>

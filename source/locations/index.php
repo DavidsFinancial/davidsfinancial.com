@@ -165,7 +165,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>3015 Third Ave.</span>
-                            <span>(155th & 3rd Ave)</span>
                             <span>Bronx, NY 10455</span>
                         </div>
                         <div class="value" data-width="telephone">718-585-3943</div>
@@ -198,7 +197,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>1998 Bruckner Blvd</span>
-                            <span>(Between White Plains Rd & Pugsley Ave)</span>
                             <span>Bronx, NY 10473</span>
                         </div>
                         <div class="value" data-width="telephone">718-430-9382</div>
@@ -224,7 +222,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>868 Prospect Avenue</span>
-                            <span>(Corner Of Westchester Ave.)</span>
                             <span>Bronx, NY 10459</span>
                         </div>
                         <div class="value" data-width="telephone">7718-842-6699</div>
@@ -252,7 +249,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>279 East 161 Street</span>
-                            <span>(Morris Ave)</span>
                             <span>Bronx, NY 10451</span>
                         </div>
                         <div class="value" data-width="telephone">718-665-6279</div>
@@ -323,7 +319,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>89 East 116th Street</span>
-                            <span>(Park Ave)</span>
                             <span>NY, NY 10029</span>
                         </div>
                         <div class="value" data-width="telephone">212-369-8550</div>
@@ -354,7 +349,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>110 West 116th Street</span>
-                            <span>(Lenox Ave)</span>
                             <span>NY, NY 10026</span>
                         </div>
                         <div class="value" data-width="telephone">212-662-5916</div>
@@ -467,7 +461,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>458 west 55th street</span>
-                            <span>(Corner of 10th Ave)</span>
                             <span>NY, NY 10019</span>
                         </div>
                         <div class="value" data-width="telephone">646-882-4049</div>
@@ -501,7 +494,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>1534 Myrtle Avenue</span>
-                            <span>(Linden St.)</span>
                             <span>Brooklyn, NY 11237</span>
                         </div>
                         <div class="value" data-width="telephone">718-366-2780</div>
@@ -527,7 +519,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>460 Rockaway Avenue</span>
-                            <span>(Between Pitkin Ave & Belmont Ave.)</span>
                             <span>Brooklyn, NY 11212</span>
                         </div>
                         <div class="value" data-width="telephone">718-346-2323</div>
@@ -554,7 +545,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>581 Sutter Avenue</span>
-                            <span>(Between Georgia Ave & Alabama Ave.)</span>
                             <span>Brooklyn, NY 11207</span>
                         </div>
                         <div class="value" data-width="telephone">7718-385-1300</div>
@@ -582,7 +572,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>1234 Broadway</span>
-                            <span>(Between Van Buren St & Greene Ave.)</span>
                             <span>Brooklyn, NY 11221</span>
                         </div>
                         <div class="value" data-width="telephone">718-452-9000</div>
@@ -612,7 +601,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>3137 Fulton St</span>
-                            <span>(Between Norwood Ave & Hale Ave)</span>
                             <span>Brooklyn, NY 11208</span>
                         </div>
                         <div class="value" data-width="telephone">718-647-3576</div>
@@ -635,7 +623,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>1431 Broadway</span>
-                            <span>(Corner Of Madison St)</span>
                             <span>Brooklyn, NY 11221</span>
                         </div>
                         <div class="value" data-width="telephone">718-443-4585</div>
@@ -694,7 +681,6 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>752 New Lots Avee</span>
-                            <span>(Between Ashford St & Cleveland St)</span>
                             <span>Brooklyn, NY 11207 </span>
                         </div>
                         <div class="value" data-width="telephone">718-649-6780</div>

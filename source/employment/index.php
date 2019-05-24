@@ -53,7 +53,7 @@
                 <div class="sectionTitle"><div class="iconBullet"></div>POSITIONS AVAILABLE</div>
                 <div class="table">
                     <div class="col_single">
-                        <div class="item">Financial Services Associates / Teller<p> David’s Financial Corp. is currently seeking full-time and part-time candidates to join our team as a Financial Service Associate / Teller
+                        <div class="item">Financial Services Associates / Teller<p> David's Financial Corp. is currently seeking full-time and part-time candidates to join our team as a Financial Service Associate / Teller
                         <p>
                             <div class="contentTitle">Position Summary</div>
                             <div class="content">
@@ -63,7 +63,7 @@
                             <div class="table" style="margin: 0; padding-top: 0; font-size: 95%;">
                                 <div class="col_single">
                                     <div class="item">Deliver outstanding customer service by executing financial transactions in accordance with company policies and procedures</div>
-                                    <div class="item">Adhere to operational controls, including legal, corporate, and regulatory procedures to ensure the safety and security of customer and company assets</div>
+                                    <div class="item">Adhere to operational controls, including legal, business, and regulatory procedures to ensure the safety and security of customer and company assets</div>
                                     <div class="item">Demonstrate a positive can-do attitude and develop a customer first culture</div>
                                     <div class="item">Maintain an acceptable difference and findings record</div>
                                     <div class="item">Drive efforts in our retail branches to identify and implement service behaviors that improve the overall customer experience</div>
@@ -71,7 +71,7 @@
                                     <div class="item">Participate in daily sales activities and sales promotions to peak customer interest and awareness in order to increase sales</div>
                                     <div class="item">Drive efforts in our retail branches to identify and implement service behaviors that improve the overall customer experience</div>
                                     <div class="item">Proactively learn new and existing products through sales aids (features, benefits, fees, etc.)</div>
-                                    <div class="item">Proactively educate customers on utilizing available access channels – Retail, Corporate, In Person and Direct Deposit</div>
+                                    <div class="item">Proactively educate customers on utilizing available access channels – Retail, Business, In Person and Direct Deposit</div>
                                     <div class="item">Create a warm, welcoming and friendly environment for customers and employees</div>
                                     <div class="item">Foster teamwork in the branch to ensure a positive overall customer experience</div>
                                     <div class="item">Support sales/service activities within the Branch by participating in seminars, micro-marketing events, promotional campaigns, product initiatives, etc</div>
@@ -83,7 +83,7 @@
                                 Financial Services Associates are responsible for providing high quality customer service with each customer transaction. Training is provided. The Ideal Financial Service Associate must be able to work a flexible schedule.
                                 <p>The information listed within this description summary is intended to indicate the general nature and level of work. It is not designed to contain or be interpreted as a comprehensive account of all the responsibilities, and/or minimum qualifications required of an employee assigned to this position.
                                 <p><span class="bold">NOTE: You may be required to take a timed online assessment</span>
-                                <p>If you need to take the assessment, you will either be directed to do immediately or you will receive an email with instructions on how to access the assessment within the next few days. Please ensure that the email address you provided is accurate and please note that the assessment invitation may go into your spam folder rather than to your inbox. The assessment will require 30 minutes of uninterrupted time to complete.
+                                <p>If you need to take the assessment, you will either be directed to do so immediately or you will receive an email with instructions on how to access the assessment within the next few days. Please ensure that the email address you provided is accurate and please note that the assessment invitation may go into your spam folder rather than to your inbox. The assessment will require 30 minutes of uninterrupted time to complete.
                             </div>
                             <div class="contentTitle">Education:</div>
                             <div class="content">
@@ -101,19 +101,12 @@
                                     <div class="item">Retail/sales experience preferred</div>
                                 </div>
                             </div>
-                            <div class="contentTitle">Requirements:</div>
-                            <div class="content">
-                                Financial Services Associates are responsible for providing high quality customer service with each customer transaction. Training is provided. The Ideal Financial Service Associate must be able to work a flexible schedule.
-                                <p>The information listed within this description summary is intended to indicate the general nature and level of work. It is not designed to contain or be interpreted as a comprehensive account of all the responsibilities, and/or minimum qualifications required of an employee assigned to this position.
-                                <p><span class="bold">NOTE: You may be required to take a timed online assessment</span>
-                                <p>If you need to take the assessment, you will either be directed to do immediately or you will receive an email with instructions on how to access the assessment within the next few days. Please ensure that the email address you provided is accurate and please note that the assessment invitation may go into your spam folder rather than to your inbox. The assessment will require 30 minutes of uninterrupted time to complete.
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="content">
-                    At David’s, the career opportunities are endless because we promote from within! We're looking for great people who <span class="bold">share our passion for great customer service!</span> This is your chance to take your career to new heights and join one of New York’s most respected financial services company with locations throughout metropolitan New York and RocklandCounty.
-                    <p>David’s offers a complete benefit program which includes health, 401K and other benefits.
+                    At David's, the career opportunities are endless because we promote from within! We're looking for great people who <span class="bold">share our passion for great customer service!</span> This is your chance to take your career to new heights and join one of New York's most respected companies with locations throughout metropolitan New York City and Rockland County.
+                    <p>David's offers a complete benefits program which includes health, 401K and other benefits.
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>CONTACT INFORMATION</div>
                 <div class="content">

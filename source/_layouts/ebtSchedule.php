@@ -65,7 +65,7 @@
         #ebtSchedule .icon::after, #ebtSchedule .link::after { font-size: 100%; }
     }
 </style>
-<div id="ebtSchedule" onClick="window.open('<?php echo $url_prefix; ?>/_assets/ebtSchedule.pdf')">
+<div id="ebtSchedule" style="display: none;">
     <div class="icon"></div>
     <div class="label">VIEW EBT SCHEDULE</div>
     <div class="link"></div>
