@@ -169,7 +169,7 @@
                         </div>
                         <div class="value" data-width="telephone">718-585-3943</div>
                         <div class="value" data-width="storeHours">
-                            <span>Mon-Fri 7:30am - 10:00pm</span>
+                            <span>Mon-Fri 8:30am - 9:00pm</span>
                             <span>Sat 9:00am - 5:00pm</span>
                             <span>Sun 9:00am - 5:00pm</span>
                         </div>
@@ -465,8 +465,11 @@
                         </div>
                         <div class="value" data-width="telephone">646-882-4049</div>
                         <div class="value" data-width="storeHours">
-                            <span>Mon-Fri 8:30am - 8:00pm</span>
-                            <span>Sat-Sun 9:00am - 5:00pm</span>
+                            <span>Mon-Tue 8:30am - 7:00pm</span>
+                            <span>Wed 8:30am - 8:00pm</span>
+                            <span>Thu-Fri 7:30am - 8:00pm</span>
+                            <span>Sat 9:00am - 5:00pm</span>
+                            <span>Sun 9:00am - 5:00pm</span>
                         </div>
                         <div class="value" data-width="transportation">
                             <div class="trainBusDiv">
@@ -576,8 +579,8 @@
                         </div>
                         <div class="value" data-width="telephone">718-452-9000</div>
                         <div class="value" data-width="storeHours">
-                            <span>Mon-Tue 8:30am - 8:00pm</span>
-                            <span>Wed 8:30am - 8:00pm</span>
+                            <span>Mon-Tue 8:30am - 5:30pm</span>
+                            <span>Wed 8:30am - 6:00pm</span>
                             <span>Thu-Fri 8:30am - 7:00pm</span>
                             <span>Sat 9:00am - 5:00pm</span>
                             <span>Sun CLOSED</span>
@@ -754,7 +757,7 @@
                         </div>
                         <div class="value" data-width="telephone">845-352-4888</div>
                         <div class="value" data-width="storeHours">
-                            <span>Mon-Fri 8:30am - 8:00pm</span>
+                            <span>Mon-Fri 8:30am - 9:00pm</span>
                             <span>Sat 8:30am - 5:00pm</span>
                             <span>Sun 9:00am - 5:00pm</span>
                         </div>
@@ -792,7 +795,7 @@
                     <div class="data">
                         <div class="value" data-width="location">
                             <span>57-59 Rte. 9w South</span>
-                            <span>West Haverstraw, NY 10977</span>
+                            <span>West Haverstraw, NY 10993</span>
                         </div>
                         <div class="value" data-width="telephone">845-429-6808</div>
                         <div class="value" data-width="storeHours">

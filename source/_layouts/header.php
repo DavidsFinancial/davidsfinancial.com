@@ -219,7 +219,7 @@ if(!$MYSQL_CONN = new mysqli($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD, $MYSQL_DB))
         <div class="item" title="Go to Bill Pay" onClick="navigateTo('billPay')">Bill Pay</div>
         <div class="item" title="Go to Products" onClick="navigateTo('products')">Prepaid Products</div>
         <div class="item" title="Go to Services" onClick="navigateTo('services')">Convenience Services</div>
-        <div class="item" title="Go to Money Transfers" onClick="navigateTo('moneyTransfers')">Money Transfers</div>
+        <div class="item" title="Go to Bonus Bucks" onClick="navigateTo('bonusBucks')">Bonus Bucks</div>
         <div class="divider">&nbsp;</div>
         <div class="item" title="Menu (About Us)" onClick="navigateTo('search/results.php')">Search</div>
     </div>
@@ -247,11 +247,11 @@ if(!$MYSQL_CONN = new mysqli($MYSQL_HOST , $MYSQL_UNAME, $MYSQL_PWD, $MYSQL_DB))
             <div id="menuButton" onClick="toggleMenu()">e</div>
             <div class="item" title="Go to Check Checking"  data-state="<?php echo $menuState['checkCashing'] ?>" onClick="navigateTo('checkCashing')"><span>PERSONAL</span><span>CHECK CASHING</span></div>
             <div class="item" title="Go to Business Check Cashing" data-value="businessCheckCashing" data-state="<?php echo $menuState['businessCheckCashing'] ?>" onClick="navigateTo('businessCheckCashing')"><span>BUSINESS</span><span>CHECK CASHING</span></div>
-            <div class="item" title="Go to Bonus Bucks" data-value="bonusBucks" data-state="<?php echo $menuState['bonusBucks'] ?>" onClick="navigateTo('bonusBucks')"><span>BONUS</span><span>BUCKS</span></div>
             <div class="item" title="Go to Direct Deposit" data-state="<?php echo $menuState['directDeposits'] ?>" onClick="navigateTo('directDeposits')"><span>DIRECT</span><span>DEPOSIT</span></div>
             <div class="item" title="Go to Bill Pay" data-state="<?php echo $menuState['billPay'] ?>" onClick="navigateTo('billPay')"><span>BILL</span><span>PAY</span></div>
             <div class="item" title="Go to Products" data-state="<?php echo $menuState['products'] ?>" onClick="navigateTo('products')"><span>PREPAID</span><span>PRODUCTS</span></div>
             <div class="item" title="Go to Services" data-state="<?php echo $menuState['services'] ?>" onClick="navigateTo('services')"><span>CONVENIENCE</span><span>SERVICES</span></div>
+            <div class="item" title="Go to Bonus Bucks" data-value="bonusBucks" data-state="<?php echo $menuState['bonusBucks'] ?>" onClick="navigateTo('bonusBucks')"><span>BONUS</span><span>BUCKS</span></div>
             <div class="wuLogo" title="Western Union Services" onClick="navigateTo('moneyTransfers')"><img src="<?php echo $url_prefix; ?>_images/westernUnionLogo.gif" style="width: 250px;"></div>
         </div>
     </div>

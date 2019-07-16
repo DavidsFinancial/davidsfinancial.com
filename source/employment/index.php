@@ -55,11 +55,11 @@
                     <div class="col_single">
                         <div class="item">Financial Services Associates / Teller<p> David's Financial Corp. is currently seeking full-time and part-time candidates to join our team as a Financial Service Associate / Teller
                         <p>
-                            <div class="contentTitle">Position Summary</div>
+                            <div class="contentTitle" style="margin-top: 10px;">Position Summary</div>
                             <div class="content">
                                 Provide customers with superior and quality customer service while performing efficient and accurate transaction processing. Maximize client solutions by referring clients to new products and services based on their financial needs while performing basic check cashing transactions.
                             </div>
-                            <div class="contentTitle">Position Responsibilities:</div>
+                            <div class="contentTitle" style="margin-top: 30px;">Position Responsibilities:</div>
                             <div class="table" style="margin: 0; padding-top: 0; font-size: 95%;">
                                 <div class="col_single">
                                     <div class="item">Deliver outstanding customer service by executing financial transactions in accordance with company policies and procedures</div>
@@ -78,18 +78,18 @@
                                     <div class="item">Resolve account service issues and respond to customer inquires promptly and effectively</div>
                                 </div>
                             </div>
-                            <div class="contentTitle">Requirements:</div>
+                            <div class="contentTitle" style="margin-top: 10px;">Requirements:</div>
                             <div class="content">
                                 Financial Services Associates are responsible for providing high quality customer service with each customer transaction. Training is provided. The Ideal Financial Service Associate must be able to work a flexible schedule.
                                 <p>The information listed within this description summary is intended to indicate the general nature and level of work. It is not designed to contain or be interpreted as a comprehensive account of all the responsibilities, and/or minimum qualifications required of an employee assigned to this position.
                                 <p><span class="bold">NOTE: You may be required to take a timed online assessment</span>
                                 <p>If you need to take the assessment, you will either be directed to do so immediately or you will receive an email with instructions on how to access the assessment within the next few days. Please ensure that the email address you provided is accurate and please note that the assessment invitation may go into your spam folder rather than to your inbox. The assessment will require 30 minutes of uninterrupted time to complete.
                             </div>
-                            <div class="contentTitle">Education:</div>
+                            <div class="contentTitle"style="margin-top: 15px;">Education:</div>
                             <div class="content">
                                 High school diploma, GED or equivalent relevant experience (12 months cumulative full-time work experience in a role of similar scope and responsibility) Preferred.
                             </div>
-                            <div class="contentTitle">Experience/Skills:</div>
+                            <div class="contentTitle" style="margin-top: 30px;">Experience/Skills:</div>
                             <div class="table" style="margin: 0; padding-top: 0; font-size: 95%;">
                                 <div class="col_single">
                                     <div class="item">Sales, cashier or other money-handling experience desired</div>

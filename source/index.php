@@ -15,31 +15,20 @@
             overflow: hidden;
         }
 
-        #hero #caro1 {
+        #hero .image {
             position: absolute;
             width: 100%;
             height: 488px;
-            background-image: url('_images/caro_1.jpg');
             background-position: center;
             background-repeat: no-repeat;
-            background-color: #fd821c;
-            z-index: 50;
             overflow: hidden;
             cursor: pointer;
         }
 
-        #hero #caro2 {
-            position: absolute;
-            width: 100%;
-            height: 488px;
-            background-image: url('_images/caro_2.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-color: #351814;
-            z-index: 30;
-            overflow: hidden;
-            cursor: pointer;
-        }
+        #hero #caro1 {  background-image: url('_images/caro_1.jpg');  background-color: #fd821c;  z-index: 70; }
+        #hero #caro2 {  background-image: url('_images/caro_2.jpg');  background-color: #351814;  z-index: 60; }
+        #hero #caro3 {  background-image: url('_images/caro_3.jpg');  background-color: #181e4d;  z-index: 50; }
+        #hero #caro4 {  background-image: url('_images/caro_4.jpg');  background-color: #12847c;  z-index: 40; }
 
         #hero .message {
             display: table-cell;
@@ -154,27 +143,30 @@
     <script language="javascript">
         var carouselStart = 1;
         function changeCarousel(){
-            if(carouselStart == 1){
-                carouselStart = 2;
+            $("#hero #caro" + carouselStart).animate({
+                opacity: 0
+            }, 800, function(){
 
-                $("#hero #caro1").animate({
-                    opacity: 0
-                }, 800, function(){
-                    ;
-                });
+            });
 
+            if(carouselStart < 4){
+                carouselStart++;
             }else{
-                carouselStart = 1;
+               //Carousel Start = 4;
                 $("#hero #caro1").animate({
                     opacity: 1
                 }, 800, function(){
+                    $("#hero #caro2").animate({opacity: 1}, 100);
+                    $("#hero #caro3").animate({opacity: 1}, 100);
+                    $("#hero #caro4").animate({opacity: 1}, 100);
 
                 });
+                carouselStart = 1;
             }
         }
 
         $(document).ready(function() {
-            setInterval(changeCarousel, 8000);
+            setInterval(changeCarousel, 7000);
         })
     </script>
 </head>
@@ -183,8 +175,10 @@
     <?php require('_layouts/header.php') ?>
     <div id="divBODY">
         <div id="hero">
-            <div id="caro1" onClick="navigateTo('businessCheckCashing');">&nbsp;</div>
-            <div id="caro2" onClick="navigateTo('businessCheckCashing');">&nbsp;</div>
+            <div id="caro1" class="image" onClick="navigateTo('businessCheckCashing');">&nbsp;</div>
+            <div id="caro2" class="image" onClick="navigateTo('businessCheckCashing');">&nbsp;</div>
+            <div id="caro3" class="image" onClick="navigateTo('businessCheckCashing');">&nbsp;</div>
+            <div id="caro4" class="image" onClick="navigateTo('businessCheckCashing');">&nbsp;</div>
         </div>
         <div id="services">
             <div class="innerContainer">
@@ -193,15 +187,15 @@
                     <div class="serviceItem" onClick="navigateTo('checkCashing')">
                         <div class="serviceCol1"><img src="_images/services_checkCashing.png" alt="Check Cashing Service icon"></div>
                         <div class="serviceCol2">
-                            <div class="rowTitle">CHECK CASHING</div>
+                            <div class="rowTitle">PERSONAL CHECK CASHING</div>
                             <div class="rowContent">At Davids Check Cashing, we offer a variety of cash services and cash most types of checks.</div>
                         </div>
                     </div>
-                    <div class="serviceItem" onClick="navigateTo('services')">
-                        <div class="serviceCol1"><img src="_images/services_unwanted.png" alt="Unwanted Gift Cards icon"></div>
+                    <div class="serviceItem" onClick="navigateTo('businessCheckCashing')">
+                        <div class="serviceCol1"><img src="_images/services_businessChecking.png" alt="Business Checking icon"></div>
                         <div class="serviceCol2">
-                            <div class="rowTitle">SELL UNWANTED GIFT CARDS</div>
-                            <div class="rowContent">In need of cash?  Bring your unwanted gift cards and store credit to any David’s location and walk out with cash in your pocket</div>
+                            <div class="rowTitle">Business Check Cashing</div>
+                            <div class="rowContent">Turn your checks made payable to your business into instant cash on-the-spot and learn more about additional services to help grow your business.</div>
                         </div>
                     </div>
                     <div class="serviceItem" onClick="navigateTo('directDeposits')">
@@ -217,14 +211,14 @@
                         <div class="serviceCol1"><img src="_images/services_billPay.png" alt="Bill Pay icon"></div>
                         <div class="serviceCol2">
                             <div class="rowTitle">BILL PAYMENT</div>
-                            <div class="rowContent">Payments are quicker, more convenient, and more secure. All accounts are credited within 1-3 business days.</div>
+                            <div class="rowContent">Payments are quicker, more convenient, and more secure. All accounts are credited in 1-3 business days.</div>
                         </div>
                     </div>
-                    <div class="serviceItem" onClick="navigateTo('products')">
-                        <div class="serviceCol1"><img src="_images/services_products.png" alt="Prepaid Products icon"></div>
+                    <div class="serviceItem" onClick="navigateTo('bonusBucks')">
+                        <div class="serviceCol1"><img src="_images/services_bonusBucks.png" alt="Bonus Bucks icon"></div>
                         <div class="serviceCol2">
-                            <div class="rowTitle">PREPAID PRODUCTS</div>
-                            <div class="rowContent">No Credit? No Problem! Davids offers a variety of Visa® and MasterCard® branded debit cards for paying bills.</div>
+                            <div class="rowTitle">BONUS BUCKS</div>
+                            <div class="rowContent">We know that you work hard for your money, so we designed this program to reward you for your loyalty.</div>
                         </div>
                     </div>
                     <div class="serviceItem" onClick="navigateTo('services')">
@@ -243,11 +237,11 @@
                             <div class="rowContent">Need to send some cash to someone you love? Davids Check Cashing is proud to be an Authorized Western Union Agent.</div>
                         </div>
                     </div>
-                    <div class="serviceItem" onClick="navigateTo('moneyTransfers')">
-                        <div class="serviceCol1"><img src="_images/services_foreignCurrency.png" alt="Foreign Currency icon"></div>
+                    <div class="serviceItem" onClick="navigateTo('products')">
+                        <div class="serviceCol1"><img src="_images/services_products.png" alt="Prepaid Products icon"></div>
                         <div class="serviceCol2">
-                            <div class="rowTitle">FOREIGN CURRENCY</div>
-                            <div class="rowContent">Back from a recent trip to a foreign country?  Just bring your leftover foreign currency to David’s and we will exchange it for US Dollars, on the spot.</div>
+                            <div class="rowTitle">PREPAID PRODUCTS</div>
+                            <div class="rowContent">No Credit? No Problem! Davids offers a variety of Visa® and MasterCard® branded debit cards for paying bills.</div>
                         </div>
                     </div>
                 </div>
