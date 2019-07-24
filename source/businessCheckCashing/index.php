@@ -68,27 +68,25 @@
                 </div>
                 <div class="contentTitle subheader" style="">When Money Flows, Your Business Grows</div>
                 <div class="content">
-                    Various construction trades, auto dealerships, and many other companies just like yours
+                    Construction trades, auto dealerships, and many other companies just like yours
                     <strong>rely on same day access to funds from checks written to their business—no holds, no wait.</strong> Davids provides you instant access to your money and is a smart alternative or additional resource to a traditional business bank account. Plus rest assured knowing we are licensed by the New York State Superintendent of Financial Services, pursuant to article 9-A of the Banking Law.
                 </div>
                 <div class="content" style="width: 100%; height: 1px; background-color: #CCC; margin-top: 20px;">&nbsp;</div>
                 <div class="sectionTitle">At Davids, the Benefits Outweigh the Fees</div>
-                <div class="content">Once you’re a Davids customer, you’ll have access to a host of business services that will help your business grow.
-                    <p>Here’s just a few...
+                <div class="content">Once you're a Davids customer, you'll have access to a host of business services that will help your business grow.
+                    <p>Here's just a few...
                 </div>
                 <div class="contentTitle" style="margin-top: 20px;">DAVIDS APP</div>
-                <div class="content">Why wait in line or for your check to be approved.  The Davids App offers convenience at your fingertips.  Snap a picture of your check.  Send it remotely.  Visit an express window at any one of our convenient locations to pick up your cash, and pay bills, buy money orders, or load funds to your business reloadable prepaid card.<p></div>
+                <div class="content">Why wait in line or for your check to be approved. The Davids App offers convenience at your fingertips. Snap a picture of your check. Send it remotely. Visit an express window at any one of our convenient locations to pick up your cash, and pay bills, buy money orders, or load funds to your business reloadable prepaid card.<p></div>
                 <div class="content">Want to learn more – Just ask for this information (no more than 5 POI): your name, company name, telephone #, email, best way to reach me (email or telephone)</div>
                 <div class="contentTitle">DISCOUNTED PAYROLL SERVICES...</div>
-                <div class="content">If you are a Davids customer with three or more employees, you will receive a 25% discount off of ADP‘s standard rates on payroll services through our Partner Program.</div>
+                <div class="content">If you are a Davids customer with three or more employees, you will receive a 25% discount off of ADP‘s standard rates on payroll services through our Partner Program.</div>
                 <div class="contentTitle">AUTO DEALERSHIP SERVICES THAT DRIVE CASHFLOW...</div>
                 <div class="content">
-                    Yes, pre-owned vehicle dealers rely on Davids to access cash from their customers’ checks and bank drafts that would otherwise take up to ten days to clear. Our warranty programs will keep your customers happy and coming back for their next vehicle. Plus, they allow dealers and staff to earn commission.
+                    Yes, pre-owned vehicle dealers rely on Davids to access cash from their customers' checks and bank drafts that would otherwise take up to ten days to clear. Our warranty programs will keep your customers happy and coming back for their next vehicle. Plus, they allow dealers and staff to earn commission.
                 </div>
-                <div class="contentTitle">AND THERE’S SO MUCH MORE...</div>
-                <div class="content">
-                    These are just some of the exciting ways we can help your business and keep you as a happy customer. Davids is committed to developing services designed specifically for businesses just like yours.
-                </div>
+                <div class="contentTitle">AND THERE'S SO MUCH MORE...</div>
+                <div class="content">These are just some of the exciting ways we can help your business and keep you as a happy customer. Davids is committed to developing services designed specifically for businesses just like yours.</div>
             </div>
             <div class="col2">
                 <?php require('../_layouts/storeFinder.php') ?>

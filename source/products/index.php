@@ -35,9 +35,10 @@
             <div class="col1">
                 <div class="sectionTitle"><div class="iconBullet"></div>PREPAID DEBIT CARDS</div>
                 <div class="content">No Credit? No Problem!
-                    Davids offers a variety of MasterCard® branded reloadable prepaid cards that allow you to get the convenience of paying with plastic without the hassles of monthly bills.
+                    Davids offers Visa&reg; MasterCard&reg branded reloadable prepaid cards that allow you to get the convenience of paying with plastic without the hassles of monthly bills.
                 </div>
                 <div class="content prepaid">
+                    <img src="<?php echo $url_prefix; ?>_images/billers8.png" title="Visa Logo" alt="Visa Logo">
                     <img src="<?php echo $url_prefix; ?>_images/billers9.png" title="MasterCard logo" alt="MasterCard Logo">
                 </div>
                 <div class="contentTitle">
@@ -45,13 +46,14 @@
                 </div>
                 <div class="table">
                     <div class="col_single">
+                        <img src="<?php echo $url_prefix; ?>_images/partners20.png" style="margin: 20px; height: 100px;">
                         <img src="<?php echo $url_prefix; ?>_images/partners23.png" style="margin: 20px;">
                         <img src="<?php echo $url_prefix; ?>_images/partners21.png" style="width: 185px; margin: 20px;">
                         <img src="<?php echo $url_prefix; ?>_images/partners22.png" style="height: 100px; margin: 20px;">
                     </div>
                 </div>
                 <div class="content">
-                    It's as simple as get a card, load and use it anywhere Visa or Mastercard Debit is accepted – retail stores, online, restaurants and ATMs.  You an even use it to pay bills.
+                    It's as simple as get a card, load and use it anywhere Visa or Mastercard Debit is accepted – retail stores, online, restaurants and ATMs. You can even use it to pay bills.
                     <p>They are safer than carrying cash since <span class="bold">if your card is lost or stolen, the funds stored on the card can be replaced!</span>
                     <p>Some cards even offer savings account options to help you better manage your money.
                     <p>There are no credit checks to get a card, no interest and no debt since you can only spend what you load to the card.

@@ -117,13 +117,13 @@
                     <div class="btnPDFLink" title="Bonus Bucks Terms & Conditions" onClick="window.open('<?php echo $url_prefix; ?>_assets/bonusBucksProgram.pdf');">BONUS BUCKS TERMS (PDF)</div>
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>JOIN TODAY! GET YOUR KEY TAG</div>
-                <div class="content">It's free and you can start earning points with your very first transaction.</div>
+                <div class="content" style="margin: -20px 0 0 0">It's free and you can start earning points with your very first transaction.</div>
                 <div class="content">
                     <img src="<?php echo $url_prefix; ?>_images/bonusBucksTags.jpg" title="Bonus Bucks Tag images" style="margin-top: 30px;" alt="Bonus Bucks Tag images">
                 </div>
-                <div class="contentTitle">Most check cashing businesses just take your money for the services they provide.</div>
+                <div class="contentTitle" style="margin-top: 15px">Most check cashing businesses just take your money for the services they provide</div>
                 <div class="content">At Davids, we pay you back. That's why we developed BONUS BUCKS the exciting new rewards program from Davids Check Cashing that pays you cash back for being a loyal customer. Every time you perform a qualifying transaction, you earn points based on either the fee for that transaction or a fixed number of points for the transaction itself.</div>
-                <div class="contentTitle">See the chart below for ways to earn points:</div>
+                <div class="contentTitle" style="margin-top: 30px">See the chart below for ways to earn points:</div>
                 <div class="chart">
                     <div class="header">Free Category Points Earned</div>
                     <div class="body">
@@ -165,7 +165,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="contentTitle">For example, cash a check with a fee of $5 and earn 100 points.</div>
+                <div class="contentTitle" style="margin-top: 30px">For example, cash a check with a fee of $5 and earn 100 points</div>
                 <div class="content">Buy a money order of any amount and earn 15 points. The  more you do, the more you earn. When you reach certain point levels, you can redeem them for instant cash rebates, paid to you right on the spot!</div>
                 <div class="chart" style="margin-top: 20px;">
                     <div class="header">How Many Points Do You Need?</div>
@@ -196,18 +196,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="contentTitle">You'll be surprised just how quickly your points will add up.</div>
+                <div class="contentTitle" style="margin-top: 30px">You'll be surprised just how quickly your points will add up</div>
                 <div class="content">And look for special promotional opportunities where we will offer additional points for special promotions and you can earn even more.</div>
                 <div class="sectionTitle"><div class="iconBullet"></div>HOW DOES IT WORK?</div>
-                <div class="contentTitle" style="margin-top: 0;">It's really very simple.</div>
+                <div class="contentTitle" style="margin: 0 0 15px 0">It's really very simple.</div>
                 <div class="content">If you already have a Davids Check Cashing key tag, you are already enrolled in the program and may already have earned points on past transactions. Check the bottom of your receipt to see what you have already earned.</div>
-                <div class="contentTitle">If you are not enrolled in the program</div>
+                <div class="contentTitle" style="margin: 30px 0 13px 0">If you are not enrolled in the program</div>
                 <div class="content">Simply ask a sales associate to enroll you today.  You will be issued a key tag.</div>
-                <div class="contentTitle">Be sure to use your or key tag every time</div>
+                <div class="contentTitle" style="margin: 30px 0 15px 0">Be sure to use your or key tag every time</div>
                 <div class="content">you perform a transaction at Davids, and you will get credit for that transaction in your account. Your transaction receipt will have your current point totals printed on it reflecting your points earned through the last transaction.</div>
-                <div class="contentTitle">It's really that simple.</div>
+                <div class="contentTitle" style="margin: 30px 0 15px 0">It's really that simple.</div>
                 <div class="content">So what are you waiting for? Get your membership started today and begin earning points with your next transaction.</div>
-                <div class="contentTitle">At Davids, We Turn Checks Into Cash ... and your loyalty earns you more cash!!</div>
+                <div class="contentTitle" style="margin: 30px 0 15px 0">At Davids, We Turn Checks Into Cash ... and your loyalty earns you more cash!!</div>
             </div>
             <div class="col2">
                 <?php require('../_layouts/storeFinder.php') ?>

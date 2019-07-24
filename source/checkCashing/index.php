@@ -81,8 +81,7 @@
                 <div class="contentTitle">Become a valued customer</div>
                 <div class="content">The first time you conduct a transaction with us, you will be provided a Valued Customer ID. This ID will serve as your customer identification and it will be accepted at any of our retail locations.</div>
                 <div class="sectionTitle"><div class="iconBullet"></div>DAVIDS APP</div>
-                <div class="content">Why wait in line or for your check to be approved.  The Davids App offers convenience at your fingertips.  Snap a picture of your check.  Send it remotely.
-                    Visit an express window at any one of our convenient locations to pick up your cash, and pay bills, buy money orders, or load funds to your business reloadable prepaid card. </div>
+                <div class="content">Why wait in line or for your check to be approved.  The Davids App offers convenience at your fingertips. Snap a picture of your check. Send it remotely. Visit an express window at any one of our convenient locations to pick up your cash, pay bills, buy money orders, load/unload debit cards and stage Western Union Money Transfers.</div>
                 <div class="sectionTitle"><div class="iconBullet"></div>PERSONAL REFER-A-FRIEND PROGRAM TERMS & CONDITIONS</div>
                 <div class="content">
                     <img class="friendImage" src="<?php echo $url_prefix; ?>_images/checkCashing_referAFriend.png" alt="Check image" title="Check Image">
@@ -90,17 +89,6 @@
                     <p>Once you referred a friend that meets the criteria described above, your checks will be cashed for free up to a $600 face amount. If face amount is higher than $600.00, we will give you a credit up to the equivalent of the fee for the face amount of $600.00 and you will be responsible to pay the fee for the difference above the$600.00 face amount.
                     <p><span data-type="bold">Free Check Cashing term is for a 30 day period. No purchased necessary to participate.</span>
                 </div>
-                <div class="content">We cash checks made payable to any business, corporation, partnership, sole proprietor or any legitimate business entity.</div>
-                <div class="contentTitle">What you should bring:</div>
-                <div class="content">Before you can cash a commercial check, you must complete our Commercial Application.
-                    <div style="margin-top: 20px;" class="bold">If you are a Sole Proprietor click the button below for the application.</div>
-                    <div class="btnPDFLink" title="Open Sole Proprietor Application" onClick="window.open('<?php echo $url_prefix; ?>_assets/davidsFinancial-sole.pdf');">SOLE PROPRIETOR APPLICATION</div>
-                    <div style="margin-top: 20px;" class="bold">If you are a Corporation/Partnership please click the button below for the application.</div>
-                    <div class="btnPDFLink" title="Open Corporate/Partnership Application" onClick="window.open('<?php echo $url_prefix; ?>_assets/davidsFinancial-corp.pdf');">CORPORATE/PARTNERSHIP APPLICATION</div>
-                    <div style="margin-top: 20px;">The completed Application must be notarized and must bear the entity's corporate seal.</div>
-                    <div class="bold">If you would like additional information please contact our Compliance Department at 888 268-2330 ext 116 or 115</div>
-                </div>
-
             </div>
             <div class="col2">
                 <?php require('../_layouts/storeFinder.php') ?>
