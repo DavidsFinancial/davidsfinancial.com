@@ -5,8 +5,13 @@
     <title>Products | Davids Financial</title>
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="../_css/MAIN.css">
     <?php require('../_layouts/javascripts.php') ?>
+    <link rel="stylesheet" href="../_css/bootstrap.min.css">
+    <link rel="stylesheet" href="../_css/MAIN.css">
+
+    <script type="application/javascript"  src="../_js/jquery-3.2.1.min.js"></script>
+    <script type="application/javascript"  src="../_js/Popper.js"></script>
+    <script type="application/javascript"  src="../_js/bootstrap.min.js"></script>
     <style>
         .prepaid img {
             display: inline-block;
@@ -61,8 +66,8 @@
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>CARD RELOADS</div>
                 <div class="content">If your balance is running low and you need to add money to your card we have the solution for you.</div>
-                <div class="contentTitle">We are an authorized reload center for the following cards:</div>
-                <div class="contentTitle">Card Brands</div>
+                <div class="contentTitle" style="margin-top: 10px;">We are an authorized reload center for the following cards:</div>
+                <div class="contentTitle" style="margin-top: 10px;">Card Brands</div>
                 <div class="table">
                     <div class="col_single">
                         <div class="item">GreenDot&reg;</span></div>
@@ -72,7 +77,7 @@
                         <div class="item">NexsCard&reg;</span></div>
                     </div>
                 </div>
-                <div class="contentTitle">Reload Networks</div>
+                <div class="contentTitle" style="margin-top: 10px;">Reload Networks</div>
                 <div class="table">
                     <div class="col_single">
                         <div class="item">MasterCard&reg; rePower</span></div>
@@ -91,7 +96,7 @@
                     <p>MasterCard is a registered trademark of MasterCard International Incorporated. All other trademarks and service marks are the property of their respective owners.
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>PREPAID WIRELESS</div>
-                <div class="content">We offer a variety of brands and amounts. Come in today and stay connected to friends and family.</div>
+                <div class="content">We offer a variety of brands. Come in today and stay connected to friends and family.</div>
                 <div class="content wireless">
                     <img src="<?php echo $url_prefix; ?>_images/billers3.png">
                     <img src="<?php echo $url_prefix; ?>_images/billers11.png">

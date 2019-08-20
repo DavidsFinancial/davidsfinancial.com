@@ -117,11 +117,8 @@
                     <div class="btnPDFLink" title="Bonus Bucks Terms & Conditions" onClick="window.open('<?php echo $url_prefix; ?>_assets/bonusBucksProgram.pdf');">BONUS BUCKS TERMS (PDF)</div>
                 </div>
                 <div class="sectionTitle"><div class="iconBullet"></div>JOIN TODAY! GET YOUR KEY TAG</div>
-                <div class="content" style="margin: -20px 0 0 0">It's free and you can start earning points with your very first transaction.</div>
-                <div class="content">
-                    <img src="<?php echo $url_prefix; ?>_images/bonusBucksTags.jpg" title="Bonus Bucks Tag images" style="margin-top: 30px;" alt="Bonus Bucks Tag images">
-                </div>
-                <div class="contentTitle" style="margin-top: 15px">Most check cashing businesses just take your money for the services they provide</div>
+                <div class="content" style="margin: -10px 0 0 0">It's free and you can start earning points with your very first transaction.</div>
+                <div class="contentTitle" style="margin-top: 30px">Most check cashing businesses just take your money for the services they provide</div>
                 <div class="content">At Davids, we pay you back. That's why we developed BONUS BUCKS the exciting new rewards program from Davids Check Cashing that pays you cash back for being a loyal customer. Every time you perform a qualifying transaction, you earn points based on either the fee for that transaction or a fixed number of points for the transaction itself.</div>
                 <div class="contentTitle" style="margin-top: 30px">See the chart below for ways to earn points:</div>
                 <div class="chart">

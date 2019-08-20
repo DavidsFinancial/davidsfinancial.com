@@ -16,7 +16,7 @@
         #hero {
             display: table;
             width: 100%;
-            height: 490px;
+            height: auto;
             overflow: hidden;
         }
 
@@ -126,7 +126,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active" onClick="navigateTo('')">
-                        <img class="d-block w-100" src="_images/caro_1.jpg" alt="First slide">
+                        <img class="d-block w-100" src="_images/caro_1.jpg" alt="">
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="_images/caro_2.jpg" alt="Second slide">

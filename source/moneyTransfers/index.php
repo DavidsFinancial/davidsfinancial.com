@@ -35,6 +35,7 @@
     <div id="divBODY">
         <div class="innerContainer">
             <div class="title">MONEY TRANSFERS</div>
+            <div style="display: table; float: left; width: 100%; text-align: left; margin: -10px 0 40px 0"><img src="<?php echo $url_prefix; ?>_images/westernUnionLogo.gif"></div>
             <div class="col1">
                 <div class="sectionTitle"><div class="iconBullet"></div>WU Logo Money Transfer – Money Orders – Prepaid</div>
                 <div class="content">
@@ -43,7 +44,7 @@
                         <p>Need to get some quick cash for an emergency from a friend or family member?</div>
                     <div>Davids Check Cashing is proud to be an Authorized Western Union Agent allowing you to send and receive money fast, to and from anywhere in the world.</div>
                 </div>
-                <div class="contentTitle">You can find the following services at any of our stores:</div>
+                <div class="contentTitle" style="margin-top: 30px;">You can find the following services at any of our stores:</div>
                 <div class="table">
                     <div class="col_single">
                         <div class="item">Send Cash</div>
