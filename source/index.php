@@ -6,7 +6,12 @@
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <?php require('_layouts/javascripts.php') ?>
+    <link rel="stylesheet" href="_css/bootstrap.min.css">
     <link rel="stylesheet" href="_css/MAIN.css">
+
+    <script type="application/javascript"  src="_js/jquery-3.2.1.min.js"></script>
+    <script type="application/javascript"  src="_js/Popper.js"></script>
+    <script type="application/javascript"  src="_js/bootstrap.min.js"></script>
     <style>
         #hero {
             display: table;
@@ -15,45 +20,11 @@
             overflow: hidden;
         }
 
-        #hero .image {
-            position: absolute;
-            width: 100%;
-            height: 488px;
-            background-position: center;
-            background-repeat: no-repeat;
-            overflow: hidden;
-            cursor: pointer;
-        }
-
-        #hero #caro1 {  background-image: url('_images/caro_1.jpg');  background-color: #fd821c;  z-index: 70; }
-        #hero #caro2 {  background-image: url('_images/caro_2.jpg');  background-color: #351814;  z-index: 60; }
-        #hero #caro3 {  background-image: url('_images/caro_3.jpg');  background-color: #181e4d;  z-index: 50; }
-        #hero #caro4 {  background-image: url('_images/caro_4.jpg');  background-color: #12847c;  z-index: 40; }
-
-        #hero .message {
-            display: table-cell;
-            float: left;
-            font-family: "raleway-regular", Arial, Helvetica, sans-serif;
-            font-size: 280%;
-            color: #FFF;
-            line-height: 120%;
-            text-align: left; vertical-align: bottom;
-            width: 100%; height: 500px;
-        }
-
-        #hero .message .btnClickHere {
-            display: inline-block;
-            font-family: "raleway-semibold", Arial, Helvetica, sans-serif;
-            font-size: 15pt;
-            background-color: #000;
-            width: auto;
-            margin: 30px auto 0; padding: 5px 40px; box-sizing: border-box;
-            border-radius: 10px;
-            cursor: pointer;
-        }
-
-        #hero .message .btnClickHere:hover {
-            background-color: #00847c;
+        .container-fluid {
+            padding-right:0;
+            padding-left:0;
+            margin-right:auto;
+            margin-left:auto
         }
 
         #services {
@@ -140,45 +111,42 @@
             #services .serviceItem .serviceCol2 {float: left; clear: both; width: 100%; text-align: center}
         }
     </style>
-    <script language="javascript">
-        var carouselStart = 1;
-        function changeCarousel(){
-            $("#hero #caro" + carouselStart).animate({
-                opacity: 0
-            }, 800, function(){
-
-            });
-
-            if(carouselStart < 4){
-                carouselStart++;
-            }else{
-               //Carousel Start = 4;
-                $("#hero #caro1").animate({
-                    opacity: 1
-                }, 800, function(){
-                    $("#hero #caro2").animate({opacity: 1}, 100);
-                    $("#hero #caro3").animate({opacity: 1}, 100);
-                    $("#hero #caro4").animate({opacity: 1}, 100);
-
-                });
-                carouselStart = 1;
-            }
-        }
-
-        $(document).ready(function() {
-            setInterval(changeCarousel, 7000);
-        })
-    </script>
 </head>
 <body>
-<div id="divCONTAINER">
+<div id="divCONTAINER" class="container-fluid">
     <?php require('_layouts/header.php') ?>
     <div id="divBODY">
         <div id="hero">
-            <div id="caro1" class="image" onClick="navigateTo('businessCheckCashing');">&nbsp;</div>
-            <div id="caro2" class="image" onClick="navigateTo('businessCheckCashing');">&nbsp;</div>
-            <div id="caro3" class="image" onClick="navigateTo('businessCheckCashing');">&nbsp;</div>
-            <div id="caro4" class="image" onClick="navigateTo('businessCheckCashing');">&nbsp;</div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" onClick="navigateTo('')">
+                        <img class="d-block w-100" src="_images/caro_1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="_images/caro_2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="_images/caro_3.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="_images/caro_4.jpg" alt="Fourth slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
         <div id="services">
             <div class="innerContainer">
